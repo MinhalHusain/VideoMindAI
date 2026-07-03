@@ -1,0 +1,46 @@
+{
+  "language": "en",
+  "transcript": "Introduction to Redshift. What is our owner of Redshift? Core architecture at closer look. Key features. Hi, my name is Silvia Nirmal. I give this presentation in winter semester. Thank you.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "text": "Introduction to Redshift."
+    },
+    {
+      "start": 4.0,
+      "end": 6.0,
+      "text": "What is our owner of Redshift?"
+    },
+    {
+      "start": 6.0,
+      "end": 8.0,
+      "text": "Core architecture at closer look."
+    },
+    {
+      "start": 8.0,
+      "end": 10.0,
+      "text": "Key features."
+    },
+    {
+      "start": 10.0,
+      "end": 12.0,
+      "text": "Hi, my name is"
+    },
+    {
+      "start": 12.0,
+      "end": 14.0,
+      "text": "Silvia Nirmal."
+    },
+    {
+      "start": 16.0,
+      "end": 22.0,
+      "text": "I give this presentation in winter semester."
+    },
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "text": "Thank you."
+    }
+  ]
+}
