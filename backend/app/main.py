@@ -1,17 +1,23 @@
-"""VideoMind AI API — FastAPI application entry point."""
+"""VideoMind AI API — Application entry point."""
 
 from fastapi import FastAPI
 
+from app.api.health import router as health_router
+
 app = FastAPI(
     title="VideoMind AI API",
-    version="0.1.0",
     description="AI-powered multimodal video intelligence assistant backend.",
+    version="0.1.0",
 )
 
+# ── Routers ───────────────────────────────────────────────────────────────────
+app.include_router(health_router)
 
-@app.get("/")
-async def root() -> dict:
-    """Health-check / welcome endpoint."""
+
+# ── Root ──────────────────────────────────────────────────────────────────────
+@app.get("/", tags=["Root"])
+async def root():
+    """Root endpoint — confirms the API is running."""
     return {
         "message": "Welcome to VideoMind AI API",
         "status": "running",
