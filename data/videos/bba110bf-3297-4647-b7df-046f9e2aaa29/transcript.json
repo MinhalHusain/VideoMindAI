@@ -1,0 +1,51 @@
+{
+  "language": "en",
+  "transcript": "Hi, I am Analesan. I am a computer science student with strong interest in building intelligent and well-designed systems. I am particularly curious about how modern AI systems work, especially large language models, LMS, and Asian-based architectures that can evaluate their own outputs and improve through its feedback. I enjoy thinking beyond just writing code, I like understanding why systems behave the way they do and how they can be designed more efficiently. I will leave in refining ideas through iteration and questioning assumptions, including my own. For me, coding isn't just about the things. It's more about that. It's about building things that are clean, scalable, and thoughtfully designed. On my GitHub, you will find projects that reflect this mindset from academic foundations like DBMS, computational theory, to experimental AI fields. I am constantly trying to learn, build, and improve. This is just the beginning of what I am to create. Thank you.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "text": "Hi, I am Analesan. I am a computer science student with strong interest in building intelligent and well-designed systems."
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "text": "I am particularly curious about how modern AI systems work, especially large language models, LMS, and Asian-based architectures"
+    },
+    {
+      "start": 16.0,
+      "end": 19.0,
+      "text": "that can evaluate their own outputs and improve through its feedback."
+    },
+    {
+      "start": 19.0,
+      "end": 29.0,
+      "text": "I enjoy thinking beyond just writing code, I like understanding why systems behave the way they do and how they can be designed more efficiently."
+    },
+    {
+      "start": 29.0,
+      "end": 35.0,
+      "text": "I will leave in refining ideas through iteration and questioning assumptions, including my own."
+    },
+    {
+      "start": 35.0,
+      "end": 46.0,
+      "text": "For me, coding isn't just about the things. It's more about that. It's about building things that are clean, scalable, and thoughtfully designed."
+    },
+    {
+      "start": 46.0,
+      "end": 53.0,
+      "text": "On my GitHub, you will find projects that reflect this mindset from academic foundations like DBMS,"
+    },
+    {
+      "start": 53.0,
+      "end": 60.0,
+      "text": "computational theory, to experimental AI fields. I am constantly trying to learn, build, and improve."
+    },
+    {
+      "start": 60.0,
+      "end": 63.0,
+      "text": "This is just the beginning of what I am to create. Thank you."
+    }
+  ]
+}

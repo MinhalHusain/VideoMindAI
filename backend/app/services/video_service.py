@@ -7,29 +7,20 @@ from pathlib import Path
 import cv2
 from fastapi import HTTPException, UploadFile, status
 
-from app.services.audio_service import AudioService
+from app.services.processing_service import ProcessingService
+from app.services.workspace_service import WorkspaceService
 
 logger = logging.getLogger(__name__)
 
 ALLOWED_EXTENSIONS: set[str] = {".mp4", ".mov", ".avi", ".mkv"}
 
-# Resolve project root dynamically:
-# __file__  →  backend/app/services/video_service.py
-# .parent   →  backend/app/services/
-# .parent   →  backend/app/
-# .parent   →  backend/
-# .parent   →  <Project Root>
-PROJECT_ROOT: Path = Path(__file__).resolve().parent.parent.parent.parent
-UPLOAD_DIR: Path = PROJECT_ROOT / "uploads"
-
 
 class VideoService:
     """Handles video upload validation, storage, and metadata extraction."""
 
-    def __init__(self, upload_dir: Path = UPLOAD_DIR) -> None:
-        self.upload_dir = upload_dir
-        self.upload_dir.mkdir(parents=True, exist_ok=True)
-        self.audio_service = AudioService()
+    def __init__(self) -> None:
+        self.workspace_service = WorkspaceService()
+        self.processing_service = ProcessingService()
 
     def _validate_extension(self, filename: str) -> str:
         """Validate and return the file extension, or raise 400."""
@@ -108,7 +99,8 @@ class VideoService:
 
         extension = self._validate_extension(file.filename)
         video_id = str(uuid.uuid4())
-        destination = self.upload_dir / f"{video_id}{extension}"
+        
+        destination = self.workspace_service.get_original_video_path(video_id, extension)
 
         # Stream the file to disk in chunks to handle large uploads efficiently.
         total_bytes = 0
@@ -136,9 +128,12 @@ class VideoService:
 
         # Extract video metadata via OpenCV.
         metadata = self._extract_metadata(destination)
+        
+        # Save metadata to workspace
+        self.workspace_service.save_metadata(video_id, metadata)
 
-        # Extract audio from the video.
-        audio_info = self.audio_service.extract(destination, video_id)
+        # Delegate further processing (audio extraction, transcription) to the processing service.
+        processing_result = self.processing_service.process_video(video_id, destination)
 
         return {
             "video_id": video_id,
@@ -147,5 +142,5 @@ class VideoService:
             "size": total_bytes,
             "status": "uploaded",
             **metadata,
-            **audio_info,
+            **processing_result,
         }

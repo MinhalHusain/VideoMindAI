@@ -4,24 +4,15 @@ import logging
 import subprocess
 from pathlib import Path
 
+from app.services.workspace_service import WorkspaceService
+
 logger = logging.getLogger(__name__)
-
-# Resolve project root dynamically:
-# __file__  →  backend/app/services/audio_service.py
-# .parent   →  backend/app/services/
-# .parent   →  backend/app/
-# .parent   →  backend/
-# .parent   →  <Project Root>
-PROJECT_ROOT: Path = Path(__file__).resolve().parent.parent.parent.parent
-AUDIO_OUTPUT_DIR: Path = PROJECT_ROOT / "outputs" / "audio"
-
 
 class AudioService:
     """Extracts audio tracks from video files using FFmpeg."""
 
-    def __init__(self, output_dir: Path = AUDIO_OUTPUT_DIR) -> None:
-        self.output_dir = output_dir
-        self.output_dir.mkdir(parents=True, exist_ok=True)
+    def __init__(self) -> None:
+        self.workspace_service = WorkspaceService()
 
     def extract(self, video_path: Path, video_id: str) -> dict:
         """Extract the audio track from a video and save it as a WAV file.
@@ -40,8 +31,8 @@ class AudioService:
         if not video_path.exists():
             raise FileNotFoundError(f"Video not found: {video_path}")
 
-        audio_filename = f"{video_id}.wav"
-        audio_path = self.output_dir / audio_filename
+        audio_path = self.workspace_service.get_audio_path(video_id)
+        audio_filename = audio_path.name
 
         cmd = [
             "ffmpeg",
