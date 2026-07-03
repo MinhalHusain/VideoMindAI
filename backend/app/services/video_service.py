@@ -7,6 +7,8 @@ from pathlib import Path
 import cv2
 from fastapi import HTTPException, UploadFile, status
 
+from app.services.audio_service import AudioService
+
 logger = logging.getLogger(__name__)
 
 ALLOWED_EXTENSIONS: set[str] = {".mp4", ".mov", ".avi", ".mkv"}
@@ -27,6 +29,7 @@ class VideoService:
     def __init__(self, upload_dir: Path = UPLOAD_DIR) -> None:
         self.upload_dir = upload_dir
         self.upload_dir.mkdir(parents=True, exist_ok=True)
+        self.audio_service = AudioService()
 
     def _validate_extension(self, filename: str) -> str:
         """Validate and return the file extension, or raise 400."""
@@ -134,6 +137,9 @@ class VideoService:
         # Extract video metadata via OpenCV.
         metadata = self._extract_metadata(destination)
 
+        # Extract audio from the video.
+        audio_info = self.audio_service.extract(destination, video_id)
+
         return {
             "video_id": video_id,
             "filename": file.filename,
@@ -141,4 +147,5 @@ class VideoService:
             "size": total_bytes,
             "status": "uploaded",
             **metadata,
+            **audio_info,
         }
