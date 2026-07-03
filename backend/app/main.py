@@ -3,6 +3,7 @@
 from fastapi import FastAPI
 
 from app.api.health import router as health_router
+from app.api.video import router as video_router
 
 app = FastAPI(
     title="VideoMind AI API",
@@ -12,6 +13,7 @@ app = FastAPI(
 
 # ── Routers ───────────────────────────────────────────────────────────────────
 app.include_router(health_router)
+app.include_router(video_router)
 
 
 # ── Root ──────────────────────────────────────────────────────────────────────
