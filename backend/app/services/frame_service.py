@@ -12,17 +12,19 @@ logger = logging.getLogger(__name__)
 class FrameService:
     """Service to extract and save individual frames from a video file."""
 
-    def extract_frames(self, video_path: Path, workspace_path: Path) -> Dict[str, Any]:
-        """Extract all frames from a video and save them as JPEG images.
+    def extract_frames(self, video_path: Path, workspace_path: Path, sampling_interval: int = 30) -> Dict[str, Any]:
+        """Extract frames from a video and save them as JPEG images.
 
         Args:
             video_path: Path to the source video file.
             workspace_path: Path to the workspace directory where 'frames/' will be created.
+            sampling_interval: Extract one frame every N frames (default 30).
 
         Returns:
             A dictionary containing:
-                - total_frames_saved (int): Number of frames successfully saved.
+                - frames_saved (int): Number of frames successfully saved.
                 - frames_directory (str): The absolute path to the directory containing the frames.
+                - sampling_interval (int): The interval used for sampling.
 
         Raises:
             FileNotFoundError: If the video file does not exist.
@@ -41,6 +43,7 @@ class FrameService:
         if not cap.isOpened():
             raise RuntimeError(f"OpenCV could not open video: {video_path}")
 
+        frame_index = 0
         saved_count = 0
         try:
             while True:
@@ -48,15 +51,18 @@ class FrameService:
                 if not success:
                     break
 
-                # 1-indexed frame numbering, padded to 6 digits (e.g., frame_000001.jpg)
-                saved_count += 1
-                frame_filename = f"frame_{saved_count:06d}.jpg"
-                frame_path = frames_dir / frame_filename
-                
-                cv2.imwrite(str(frame_path), frame)
-                
-                if saved_count % 1000 == 0:
-                    logger.info("Extracted %d frames...", saved_count)
+                if frame_index % sampling_interval == 0:
+                    # 1-indexed frame numbering, padded to 6 digits (e.g., frame_000001.jpg)
+                    saved_count += 1
+                    frame_filename = f"frame_{saved_count:06d}.jpg"
+                    frame_path = frames_dir / frame_filename
+                    
+                    cv2.imwrite(str(frame_path), frame)
+                    
+                    if saved_count % 1000 == 0:
+                        logger.info("Extracted %d frames...", saved_count)
+                        
+                frame_index += 1
                     
         except Exception:
             logger.exception("An error occurred during frame extraction.")
@@ -67,6 +73,7 @@ class FrameService:
         logger.info("Frame extraction completed. %d frames saved to %s", saved_count, frames_dir.name)
 
         return {
-            "total_frames_saved": saved_count,
+            "frames_saved": saved_count,
             "frames_directory": str(frames_dir),
+            "sampling_interval": sampling_interval,
         }

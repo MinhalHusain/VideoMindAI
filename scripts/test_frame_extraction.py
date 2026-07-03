@@ -48,7 +48,7 @@ def main():
         result = service.extract_frames(video_path=original_video, workspace_path=newest_workspace)
         
         frames_dir = result.get("frames_directory", "UNKNOWN")
-        total_frames = result.get("total_frames_saved", 0)
+        total_frames = result.get("frames_saved", 0)
         
         print("====================================")
         print("FRAME EXTRACTION TEST")
