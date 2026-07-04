@@ -1,0 +1,2799 @@
+{
+    "metadata": {
+        "duration": 24.75,
+        "width": 1920,
+        "height": 1200,
+        "fps": 28.12,
+        "total_frames": 696
+    },
+    "transcript": {
+        "language": "en",
+        "transcript": "Hey everyone, welcome to the channel. I'm Vishaka, a senior solutions architect. And today we are learning about APIs from the ground up, what they are, why they matter, and now how they are powering AI applications. Understanding how systems communicate is a skill every engineer should have. I repeat, every engineer should know how APIs work.",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 7.32,
+                "text": "Hey everyone, welcome to the channel. I'm Vishaka, a senior solutions architect. And"
+            },
+            {
+                "start": 7.32,
+                "end": 11.96,
+                "text": "today we are learning about APIs from the ground up, what they are, why they matter,"
+            },
+            {
+                "start": 11.96,
+                "end": 16.52,
+                "text": "and now how they are powering AI applications. Understanding how systems communicate is a"
+            },
+            {
+                "start": 16.52,
+                "end": 22.56,
+                "text": "skill every engineer should have. I repeat, every engineer should know how APIs work."
+            }
+        ]
+    },
+    "ocr": {
+        "frames_processed": 24,
+        "text_blocks": [
+            {
+                "frame": "frame_000001.jpg",
+                "text": "YOu",
+                "confidence": 0.4348
+            },
+            {
+                "frame": "frame_000001.jpg",
+                "text": "GoT",
+                "confidence": 0.4828
+            },
+            {
+                "frame": "frame_000001.jpg",
+                "text": "ThIS}",
+                "confidence": 0.4297
+            },
+            {
+                "frame": "frame_000002.jpg",
+                "text": "YOu",
+                "confidence": 0.3863
+            },
+            {
+                "frame": "frame_000002.jpg",
+                "text": "GoT",
+                "confidence": 0.4811
+            },
+            {
+                "frame": "frame_000002.jpg",
+                "text": "ThIS",
+                "confidence": 0.421
+            },
+            {
+                "frame": "frame_000003.jpg",
+                "text": "YOu",
+                "confidence": 0.344
+            },
+            {
+                "frame": "frame_000003.jpg",
+                "text": "GoT",
+                "confidence": 0.516
+            },
+            {
+                "frame": "frame_000003.jpg",
+                "text": "ThIS)",
+                "confidence": 0.1756
+            },
+            {
+                "frame": "frame_000004.jpg",
+                "text": "YOu",
+                "confidence": 0.4002
+            },
+            {
+                "frame": "frame_000004.jpg",
+                "text": "Gol",
+                "confidence": 0.6878
+            },
+            {
+                "frame": "frame_000004.jpg",
+                "text": "ThIS)",
+                "confidence": 0.5504
+            },
+            {
+                "frame": "frame_000005.jpg",
+                "text": "YOu",
+                "confidence": 0.4652
+            },
+            {
+                "frame": "frame_000005.jpg",
+                "text": "Gor",
+                "confidence": 0.2787
+            },
+            {
+                "frame": "frame_000005.jpg",
+                "text": "ThIS",
+                "confidence": 0.607
+            },
+            {
+                "frame": "frame_000006.jpg",
+                "text": "Vishakha Sadhwani",
+                "confidence": 0.6719
+            },
+            {
+                "frame": "frame_000007.jpg",
+                "text": "Vishakha Sadhwani",
+                "confidence": 0.9997
+            },
+            {
+                "frame": "frame_000007.jpg",
+                "text": "Sr. Solutions Architect",
+                "confidence": 0.6974
+            },
+            {
+                "frame": "frame_000008.jpg",
+                "text": "YOU",
+                "confidence": 0.789
+            },
+            {
+                "frame": "frame_000008.jpg",
+                "text": "GoT",
+                "confidence": 0.6858
+            },
+            {
+                "frame": "frame_000008.jpg",
+                "text": "ThIS",
+                "confidence": 0.5762
+            },
+            {
+                "frame": "frame_000009.jpg",
+                "text": "APIs",
+                "confidence": 0.9786
+            },
+            {
+                "frame": "frame_000010.jpg",
+                "text": "APs",
+                "confidence": 0.9977
+            },
+            {
+                "frame": "frame_000011.jpg",
+                "text": "APs",
+                "confidence": 0.9979
+            },
+            {
+                "frame": "frame_000011.jpg",
+                "text": "what",
+                "confidence": 0.9998
+            },
+            {
+                "frame": "frame_000011.jpg",
+                "text": "are?",
+                "confidence": 0.9908
+            },
+            {
+                "frame": "frame_000011.jpg",
+                "text": "they",
+                "confidence": 0.9991
+            },
+            {
+                "frame": "frame_000012.jpg",
+                "text": "APs",
+                "confidence": 0.9978
+            },
+            {
+                "frame": "frame_000012.jpg",
+                "text": "what",
+                "confidence": 0.9997
+            },
+            {
+                "frame": "frame_000012.jpg",
+                "text": "are?",
+                "confidence": 0.9987
+            },
+            {
+                "frame": "frame_000012.jpg",
+                "text": "why they matter?",
+                "confidence": 0.9734
+            },
+            {
+                "frame": "frame_000012.jpg",
+                "text": "they",
+                "confidence": 0.9997
+            },
+            {
+                "frame": "frame_000013.jpg",
+                "text": "APIs",
+                "confidence": 0.9816
+            },
+            {
+                "frame": "frame_000013.jpg",
+                "text": "what",
+                "confidence": 0.9997
+            },
+            {
+                "frame": "frame_000013.jpg",
+                "text": "are?",
+                "confidence": 0.9969
+            },
+            {
+                "frame": "frame_000013.jpg",
+                "text": "how are Al apps",
+                "confidence": 0.9237
+            },
+            {
+                "frame": "frame_000013.jpg",
+                "text": "powered?",
+                "confidence": 0.9989
+            },
+            {
+                "frame": "frame_000013.jpg",
+                "text": "why they matter?",
+                "confidence": 0.9961
+            },
+            {
+                "frame": "frame_000013.jpg",
+                "text": "they",
+                "confidence": 0.9997
+            },
+            {
+                "frame": "frame_000014.jpg",
+                "text": "APIs",
+                "confidence": 0.982
+            },
+            {
+                "frame": "frame_000014.jpg",
+                "text": "what",
+                "confidence": 0.9997
+            },
+            {
+                "frame": "frame_000014.jpg",
+                "text": "are?",
+                "confidence": 0.9975
+            },
+            {
+                "frame": "frame_000014.jpg",
+                "text": "how are Alapps",
+                "confidence": 0.9854
+            },
+            {
+                "frame": "frame_000014.jpg",
+                "text": "powered?",
+                "confidence": 0.894
+            },
+            {
+                "frame": "frame_000014.jpg",
+                "text": "why they matter?",
+                "confidence": 0.9995
+            },
+            {
+                "frame": "frame_000014.jpg",
+                "text": "they",
+                "confidence": 0.9999
+            },
+            {
+                "frame": "frame_000015.jpg",
+                "text": "howsystems",
+                "confidence": 0.9954
+            },
+            {
+                "frame": "frame_000015.jpg",
+                "text": "communicate?",
+                "confidence": 0.9867
+            },
+            {
+                "frame": "frame_000016.jpg",
+                "text": "howsystems",
+                "confidence": 0.9967
+            },
+            {
+                "frame": "frame_000016.jpg",
+                "text": "communicate?",
+                "confidence": 0.9986
+            },
+            {
+                "frame": "frame_000017.jpg",
+                "text": "YOU",
+                "confidence": 0.5615
+            },
+            {
+                "frame": "frame_000017.jpg",
+                "text": "Gol",
+                "confidence": 0.4446
+            },
+            {
+                "frame": "frame_000017.jpg",
+                "text": "ThIs",
+                "confidence": 0.2986
+            },
+            {
+                "frame": "frame_000018.jpg",
+                "text": "YQu",
+                "confidence": 0.252
+            },
+            {
+                "frame": "frame_000018.jpg",
+                "text": "Gol",
+                "confidence": 0.3736
+            },
+            {
+                "frame": "frame_000018.jpg",
+                "text": "ThiS",
+                "confidence": 0.2458
+            },
+            {
+                "frame": "frame_000019.jpg",
+                "text": "YOu",
+                "confidence": 0.2523
+            },
+            {
+                "frame": "frame_000019.jpg",
+                "text": "Go",
+                "confidence": 0.8742
+            },
+            {
+                "frame": "frame_000019.jpg",
+                "text": "ThIS)",
+                "confidence": 0.4371
+            },
+            {
+                "frame": "frame_000020.jpg",
+                "text": "YQU",
+                "confidence": 0.4623
+            },
+            {
+                "frame": "frame_000020.jpg",
+                "text": "GoT",
+                "confidence": 0.3261
+            },
+            {
+                "frame": "frame_000020.jpg",
+                "text": "ThIS",
+                "confidence": 0.3898
+            },
+            {
+                "frame": "frame_000021.jpg",
+                "text": "W APIswor",
+                "confidence": 0.6784
+            },
+            {
+                "frame": "frame_000022.jpg",
+                "text": "howAPIswork?",
+                "confidence": 0.9613
+            },
+            {
+                "frame": "frame_000023.jpg",
+                "text": "H",
+                "confidence": 0.4624
+            },
+            {
+                "frame": "frame_000023.jpg",
+                "text": "YOU",
+                "confidence": 0.4631
+            },
+            {
+                "frame": "frame_000023.jpg",
+                "text": "GoT",
+                "confidence": 0.3779
+            },
+            {
+                "frame": "frame_000023.jpg",
+                "text": "ThIS)",
+                "confidence": 0.5132
+            },
+            {
+                "frame": "frame_000024.jpg",
+                "text": "YOU",
+                "confidence": 0.473
+            },
+            {
+                "frame": "frame_000024.jpg",
+                "text": "GoT",
+                "confidence": 0.3634
+            },
+            {
+                "frame": "frame_000024.jpg",
+                "text": "ThIS)",
+                "confidence": 0.5542
+            }
+        ]
+    },
+    "scenes": {
+        "frames_processed": 24,
+        "scene_changes": [
+            {
+                "frame": "frame_000001.jpg",
+                "scene_id": 1
+            },
+            {
+                "frame": "frame_000002.jpg",
+                "scene_id": 1
+            },
+            {
+                "frame": "frame_000003.jpg",
+                "scene_id": 1
+            },
+            {
+                "frame": "frame_000004.jpg",
+                "scene_id": 1
+            },
+            {
+                "frame": "frame_000005.jpg",
+                "scene_id": 1
+            },
+            {
+                "frame": "frame_000006.jpg",
+                "scene_id": 2
+            },
+            {
+                "frame": "frame_000007.jpg",
+                "scene_id": 2
+            },
+            {
+                "frame": "frame_000008.jpg",
+                "scene_id": 3
+            },
+            {
+                "frame": "frame_000009.jpg",
+                "scene_id": 4
+            },
+            {
+                "frame": "frame_000010.jpg",
+                "scene_id": 4
+            },
+            {
+                "frame": "frame_000011.jpg",
+                "scene_id": 4
+            },
+            {
+                "frame": "frame_000012.jpg",
+                "scene_id": 4
+            },
+            {
+                "frame": "frame_000013.jpg",
+                "scene_id": 4
+            },
+            {
+                "frame": "frame_000014.jpg",
+                "scene_id": 4
+            },
+            {
+                "frame": "frame_000015.jpg",
+                "scene_id": 5
+            },
+            {
+                "frame": "frame_000016.jpg",
+                "scene_id": 5
+            },
+            {
+                "frame": "frame_000017.jpg",
+                "scene_id": 6
+            },
+            {
+                "frame": "frame_000018.jpg",
+                "scene_id": 6
+            },
+            {
+                "frame": "frame_000019.jpg",
+                "scene_id": 6
+            },
+            {
+                "frame": "frame_000020.jpg",
+                "scene_id": 6
+            },
+            {
+                "frame": "frame_000021.jpg",
+                "scene_id": 7
+            },
+            {
+                "frame": "frame_000022.jpg",
+                "scene_id": 7
+            },
+            {
+                "frame": "frame_000023.jpg",
+                "scene_id": 8
+            },
+            {
+                "frame": "frame_000024.jpg",
+                "scene_id": 8
+            }
+        ]
+    },
+    "captions": {
+        "frames_processed": 24,
+        "captions": [
+            {
+                "frame": "frame_000001.jpg",
+                "caption": "a woman sitting at a table with a laptop"
+            },
+            {
+                "frame": "frame_000002.jpg",
+                "caption": "a woman sitting at a table with a laptop"
+            },
+            {
+                "frame": "frame_000003.jpg",
+                "caption": "a woman sitting at a table with a laptop"
+            },
+            {
+                "frame": "frame_000004.jpg",
+                "caption": "a woman sitting at a table with a laptop"
+            },
+            {
+                "frame": "frame_000005.jpg",
+                "caption": "a woman sitting at a table with a laptop"
+            },
+            {
+                "frame": "frame_000006.jpg",
+                "caption": "a woman sitting at a table with a cup"
+            },
+            {
+                "frame": "frame_000007.jpg",
+                "caption": "a woman sitting at a table with a laptop"
+            },
+            {
+                "frame": "frame_000008.jpg",
+                "caption": "a woman sitting at a table with a laptop"
+            },
+            {
+                "frame": "frame_000009.jpg",
+                "caption": "aps - the best way to get money"
+            },
+            {
+                "frame": "frame_000010.jpg",
+                "caption": "aps - the best way to get money"
+            },
+            {
+                "frame": "frame_000011.jpg",
+                "caption": "a yellow sign with the words apis and apis"
+            },
+            {
+                "frame": "frame_000012.jpg",
+                "caption": "a yellow sign with the words apis and apis"
+            },
+            {
+                "frame": "frame_000013.jpg",
+                "caption": "a whiteboard with the words apis and apis"
+            },
+            {
+                "frame": "frame_000014.jpg",
+                "caption": "a yellow sticky paper with the words apis and apis"
+            },
+            {
+                "frame": "frame_000015.jpg",
+                "caption": "a red and white sign that says, ' how do you know??? '"
+            },
+            {
+                "frame": "frame_000016.jpg",
+                "caption": "a red and white text that says, ' how is the system communicate?? '"
+            },
+            {
+                "frame": "frame_000017.jpg",
+                "caption": "a woman sitting at a table with a laptop"
+            },
+            {
+                "frame": "frame_000018.jpg",
+                "caption": "a woman sitting at a table with a laptop"
+            },
+            {
+                "frame": "frame_000019.jpg",
+                "caption": "a woman sitting at a table with a laptop"
+            },
+            {
+                "frame": "frame_000020.jpg",
+                "caption": "a woman sitting at a table with a laptop"
+            },
+            {
+                "frame": "frame_000021.jpg",
+                "caption": "a logo with the words ' ' ' ' and ' ' '"
+            },
+            {
+                "frame": "frame_000022.jpg",
+                "caption": "a red and white logo with the words, how do you know?"
+            },
+            {
+                "frame": "frame_000023.jpg",
+                "caption": "a woman sitting at a table with a laptop"
+            },
+            {
+                "frame": "frame_000024.jpg",
+                "caption": "a woman sitting at a table with a laptop"
+            }
+        ]
+    },
+    "timeline": [
+        {
+            "start": 0.0,
+            "end": 7.32,
+            "scene": 1,
+            "transcript": "Hey everyone, welcome to the channel. I'm Vishaka, a senior solutions architect. And",
+            "ocr": [
+                {
+                    "text": "YOu",
+                    "confidence": 0.4348
+                },
+                {
+                    "text": "GoT",
+                    "confidence": 0.4828
+                },
+                {
+                    "text": "ThIS}",
+                    "confidence": 0.4297
+                },
+                {
+                    "text": "YOu",
+                    "confidence": 0.3863
+                },
+                {
+                    "text": "GoT",
+                    "confidence": 0.4811
+                },
+                {
+                    "text": "ThIS",
+                    "confidence": 0.421
+                },
+                {
+                    "text": "YOu",
+                    "confidence": 0.344
+                },
+                {
+                    "text": "GoT",
+                    "confidence": 0.516
+                },
+                {
+                    "text": "ThIS)",
+                    "confidence": 0.1756
+                },
+                {
+                    "text": "YOu",
+                    "confidence": 0.4002
+                },
+                {
+                    "text": "Gol",
+                    "confidence": 0.6878
+                },
+                {
+                    "text": "ThIS)",
+                    "confidence": 0.5504
+                },
+                {
+                    "text": "YOu",
+                    "confidence": 0.4652
+                },
+                {
+                    "text": "Gor",
+                    "confidence": 0.2787
+                },
+                {
+                    "text": "ThIS",
+                    "confidence": 0.607
+                },
+                {
+                    "text": "Vishakha Sadhwani",
+                    "confidence": 0.6719
+                },
+                {
+                    "text": "Vishakha Sadhwani",
+                    "confidence": 0.9997
+                },
+                {
+                    "text": "Sr. Solutions Architect",
+                    "confidence": 0.6974
+                },
+                {
+                    "text": "YOU",
+                    "confidence": 0.789
+                },
+                {
+                    "text": "GoT",
+                    "confidence": 0.6858
+                },
+                {
+                    "text": "ThIS",
+                    "confidence": 0.5762
+                }
+            ],
+            "captions": [
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a cup",
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a laptop"
+            ]
+        },
+        {
+            "start": 7.32,
+            "end": 11.96,
+            "scene": 4,
+            "transcript": "today we are learning about APIs from the ground up, what they are, why they matter,",
+            "ocr": [
+                {
+                    "text": "APIs",
+                    "confidence": 0.9786
+                },
+                {
+                    "text": "APs",
+                    "confidence": 0.9977
+                },
+                {
+                    "text": "APs",
+                    "confidence": 0.9979
+                },
+                {
+                    "text": "what",
+                    "confidence": 0.9998
+                },
+                {
+                    "text": "are?",
+                    "confidence": 0.9908
+                },
+                {
+                    "text": "they",
+                    "confidence": 0.9991
+                },
+                {
+                    "text": "APs",
+                    "confidence": 0.9978
+                },
+                {
+                    "text": "what",
+                    "confidence": 0.9997
+                },
+                {
+                    "text": "are?",
+                    "confidence": 0.9987
+                },
+                {
+                    "text": "why they matter?",
+                    "confidence": 0.9734
+                },
+                {
+                    "text": "they",
+                    "confidence": 0.9997
+                }
+            ],
+            "captions": [
+                "aps - the best way to get money",
+                "aps - the best way to get money",
+                "a yellow sign with the words apis and apis",
+                "a yellow sign with the words apis and apis"
+            ]
+        },
+        {
+            "start": 11.96,
+            "end": 16.52,
+            "scene": 4,
+            "transcript": "and now how they are powering AI applications. Understanding how systems communicate is a",
+            "ocr": [
+                {
+                    "text": "APIs",
+                    "confidence": 0.9816
+                },
+                {
+                    "text": "what",
+                    "confidence": 0.9997
+                },
+                {
+                    "text": "are?",
+                    "confidence": 0.9969
+                },
+                {
+                    "text": "how are Al apps",
+                    "confidence": 0.9237
+                },
+                {
+                    "text": "powered?",
+                    "confidence": 0.9989
+                },
+                {
+                    "text": "why they matter?",
+                    "confidence": 0.9961
+                },
+                {
+                    "text": "they",
+                    "confidence": 0.9997
+                },
+                {
+                    "text": "APIs",
+                    "confidence": 0.982
+                },
+                {
+                    "text": "what",
+                    "confidence": 0.9997
+                },
+                {
+                    "text": "are?",
+                    "confidence": 0.9975
+                },
+                {
+                    "text": "how are Alapps",
+                    "confidence": 0.9854
+                },
+                {
+                    "text": "powered?",
+                    "confidence": 0.894
+                },
+                {
+                    "text": "why they matter?",
+                    "confidence": 0.9995
+                },
+                {
+                    "text": "they",
+                    "confidence": 0.9999
+                },
+                {
+                    "text": "howsystems",
+                    "confidence": 0.9954
+                },
+                {
+                    "text": "communicate?",
+                    "confidence": 0.9867
+                },
+                {
+                    "text": "howsystems",
+                    "confidence": 0.9967
+                },
+                {
+                    "text": "communicate?",
+                    "confidence": 0.9986
+                },
+                {
+                    "text": "YOU",
+                    "confidence": 0.5615
+                },
+                {
+                    "text": "Gol",
+                    "confidence": 0.4446
+                },
+                {
+                    "text": "ThIs",
+                    "confidence": 0.2986
+                }
+            ],
+            "captions": [
+                "a whiteboard with the words apis and apis",
+                "a yellow sticky paper with the words apis and apis",
+                "a red and white sign that says, ' how do you know??? '",
+                "a red and white text that says, ' how is the system communicate?? '",
+                "a woman sitting at a table with a laptop"
+            ]
+        },
+        {
+            "start": 16.52,
+            "end": 22.56,
+            "scene": 6,
+            "transcript": "skill every engineer should have. I repeat, every engineer should know how APIs work.",
+            "ocr": [
+                {
+                    "text": "YQu",
+                    "confidence": 0.252
+                },
+                {
+                    "text": "Gol",
+                    "confidence": 0.3736
+                },
+                {
+                    "text": "ThiS",
+                    "confidence": 0.2458
+                },
+                {
+                    "text": "YOu",
+                    "confidence": 0.2523
+                },
+                {
+                    "text": "Go",
+                    "confidence": 0.8742
+                },
+                {
+                    "text": "ThIS)",
+                    "confidence": 0.4371
+                },
+                {
+                    "text": "YQU",
+                    "confidence": 0.4623
+                },
+                {
+                    "text": "GoT",
+                    "confidence": 0.3261
+                },
+                {
+                    "text": "ThIS",
+                    "confidence": 0.3898
+                },
+                {
+                    "text": "W APIswor",
+                    "confidence": 0.6784
+                },
+                {
+                    "text": "howAPIswork?",
+                    "confidence": 0.9613
+                }
+            ],
+            "captions": [
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a laptop",
+                "a logo with the words ' ' ' ' and ' ' '",
+                "a red and white logo with the words, how do you know?"
+            ]
+        }
+    ],
+    "chunks": [
+        {
+            "chunk_id": 1,
+            "scene": 1,
+            "start": 0.0,
+            "end": 7.32,
+            "text": "Hey everyone, welcome to the channel. I'm Vishaka, a senior solutions architect. And",
+            "ocr": [
+                {
+                    "text": "YOu",
+                    "confidence": 0.4348
+                },
+                {
+                    "text": "GoT",
+                    "confidence": 0.4828
+                },
+                {
+                    "text": "ThIS}",
+                    "confidence": 0.4297
+                },
+                {
+                    "text": "YOu",
+                    "confidence": 0.3863
+                },
+                {
+                    "text": "GoT",
+                    "confidence": 0.4811
+                },
+                {
+                    "text": "ThIS",
+                    "confidence": 0.421
+                },
+                {
+                    "text": "YOu",
+                    "confidence": 0.344
+                },
+                {
+                    "text": "GoT",
+                    "confidence": 0.516
+                },
+                {
+                    "text": "ThIS)",
+                    "confidence": 0.1756
+                },
+                {
+                    "text": "YOu",
+                    "confidence": 0.4002
+                },
+                {
+                    "text": "Gol",
+                    "confidence": 0.6878
+                },
+                {
+                    "text": "ThIS)",
+                    "confidence": 0.5504
+                },
+                {
+                    "text": "YOu",
+                    "confidence": 0.4652
+                },
+                {
+                    "text": "Gor",
+                    "confidence": 0.2787
+                },
+                {
+                    "text": "ThIS",
+                    "confidence": 0.607
+                },
+                {
+                    "text": "Vishakha Sadhwani",
+                    "confidence": 0.6719
+                },
+                {
+                    "text": "Vishakha Sadhwani",
+                    "confidence": 0.9997
+                },
+                {
+                    "text": "Sr. Solutions Architect",
+                    "confidence": 0.6974
+                },
+                {
+                    "text": "YOU",
+                    "confidence": 0.789
+                },
+                {
+                    "text": "GoT",
+                    "confidence": 0.6858
+                },
+                {
+                    "text": "ThIS",
+                    "confidence": 0.5762
+                }
+            ],
+            "captions": [
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a cup",
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a laptop"
+            ]
+        },
+        {
+            "chunk_id": 2,
+            "scene": 4,
+            "start": 7.32,
+            "end": 11.96,
+            "text": "today we are learning about APIs from the ground up, what they are, why they matter,",
+            "ocr": [
+                {
+                    "text": "APIs",
+                    "confidence": 0.9786
+                },
+                {
+                    "text": "APs",
+                    "confidence": 0.9977
+                },
+                {
+                    "text": "APs",
+                    "confidence": 0.9979
+                },
+                {
+                    "text": "what",
+                    "confidence": 0.9998
+                },
+                {
+                    "text": "are?",
+                    "confidence": 0.9908
+                },
+                {
+                    "text": "they",
+                    "confidence": 0.9991
+                },
+                {
+                    "text": "APs",
+                    "confidence": 0.9978
+                },
+                {
+                    "text": "what",
+                    "confidence": 0.9997
+                },
+                {
+                    "text": "are?",
+                    "confidence": 0.9987
+                },
+                {
+                    "text": "why they matter?",
+                    "confidence": 0.9734
+                },
+                {
+                    "text": "they",
+                    "confidence": 0.9997
+                }
+            ],
+            "captions": [
+                "aps - the best way to get money",
+                "aps - the best way to get money",
+                "a yellow sign with the words apis and apis",
+                "a yellow sign with the words apis and apis"
+            ]
+        },
+        {
+            "chunk_id": 3,
+            "scene": 4,
+            "start": 11.96,
+            "end": 16.52,
+            "text": "and now how they are powering AI applications. Understanding how systems communicate is a",
+            "ocr": [
+                {
+                    "text": "APIs",
+                    "confidence": 0.9816
+                },
+                {
+                    "text": "what",
+                    "confidence": 0.9997
+                },
+                {
+                    "text": "are?",
+                    "confidence": 0.9969
+                },
+                {
+                    "text": "how are Al apps",
+                    "confidence": 0.9237
+                },
+                {
+                    "text": "powered?",
+                    "confidence": 0.9989
+                },
+                {
+                    "text": "why they matter?",
+                    "confidence": 0.9961
+                },
+                {
+                    "text": "they",
+                    "confidence": 0.9997
+                },
+                {
+                    "text": "APIs",
+                    "confidence": 0.982
+                },
+                {
+                    "text": "what",
+                    "confidence": 0.9997
+                },
+                {
+                    "text": "are?",
+                    "confidence": 0.9975
+                },
+                {
+                    "text": "how are Alapps",
+                    "confidence": 0.9854
+                },
+                {
+                    "text": "powered?",
+                    "confidence": 0.894
+                },
+                {
+                    "text": "why they matter?",
+                    "confidence": 0.9995
+                },
+                {
+                    "text": "they",
+                    "confidence": 0.9999
+                },
+                {
+                    "text": "howsystems",
+                    "confidence": 0.9954
+                },
+                {
+                    "text": "communicate?",
+                    "confidence": 0.9867
+                },
+                {
+                    "text": "howsystems",
+                    "confidence": 0.9967
+                },
+                {
+                    "text": "communicate?",
+                    "confidence": 0.9986
+                },
+                {
+                    "text": "YOU",
+                    "confidence": 0.5615
+                },
+                {
+                    "text": "Gol",
+                    "confidence": 0.4446
+                },
+                {
+                    "text": "ThIs",
+                    "confidence": 0.2986
+                }
+            ],
+            "captions": [
+                "a whiteboard with the words apis and apis",
+                "a yellow sticky paper with the words apis and apis",
+                "a red and white sign that says, ' how do you know??? '",
+                "a red and white text that says, ' how is the system communicate?? '",
+                "a woman sitting at a table with a laptop"
+            ]
+        },
+        {
+            "chunk_id": 4,
+            "scene": 6,
+            "start": 16.52,
+            "end": 22.56,
+            "text": "skill every engineer should have. I repeat, every engineer should know how APIs work.",
+            "ocr": [
+                {
+                    "text": "YQu",
+                    "confidence": 0.252
+                },
+                {
+                    "text": "Gol",
+                    "confidence": 0.3736
+                },
+                {
+                    "text": "ThiS",
+                    "confidence": 0.2458
+                },
+                {
+                    "text": "YOu",
+                    "confidence": 0.2523
+                },
+                {
+                    "text": "Go",
+                    "confidence": 0.8742
+                },
+                {
+                    "text": "ThIS)",
+                    "confidence": 0.4371
+                },
+                {
+                    "text": "YQU",
+                    "confidence": 0.4623
+                },
+                {
+                    "text": "GoT",
+                    "confidence": 0.3261
+                },
+                {
+                    "text": "ThIS",
+                    "confidence": 0.3898
+                },
+                {
+                    "text": "W APIswor",
+                    "confidence": 0.6784
+                },
+                {
+                    "text": "howAPIswork?",
+                    "confidence": 0.9613
+                }
+            ],
+            "captions": [
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a laptop",
+                "a woman sitting at a table with a laptop",
+                "a logo with the words ' ' ' ' and ' ' '",
+                "a red and white logo with the words, how do you know?"
+            ]
+        }
+    ],
+    "embeddings": [
+        {
+            "chunk_id": 1,
+            "embedding": [
+                -0.08173185586929321,
+                -0.010441877879202366,
+                0.012682909145951271,
+                -0.1101442202925682,
+                0.02953050099313259,
+                -0.01731036975979805,
+                0.033793944865465164,
+                0.04605706036090851,
+                0.01526294369250536,
+                0.04447077959775925,
+                -0.013024969026446342,
+                -0.07330084592103958,
+                0.04266979172825813,
+                0.043441254645586014,
+                0.06284724920988083,
+                0.03637611120939255,
+                -0.001935982727445662,
+                -0.03074835240840912,
+                0.0013994534965604544,
+                0.008153638802468777,
+                -0.0033194059506058693,
+                0.013832270167768002,
+                -0.04035640507936478,
+                -0.020176047459244728,
+                0.04354212060570717,
+                0.012331893667578697,
+                0.04984310269355774,
+                -0.033614154905080795,
+                0.05603230744600296,
+                -0.1394127905368805,
+                -0.0184532068669796,
+                0.025698356330394745,
+                0.07057766616344452,
+                -0.016130531206727028,
+                0.006933914963155985,
+                0.009666682220995426,
+                -0.065482959151268,
+                0.008412681519985199,
+                -0.055286310613155365,
+                -0.009469821117818356,
+                0.017211833968758583,
+                -0.004901595413684845,
+                0.02291787788271904,
+                -0.03160177171230316,
+                0.0012522211764007807,
+                -0.054159972816705704,
+                0.009116877801716328,
+                0.014430252835154533,
+                -0.03839961439371109,
+                -0.035059716552495956,
+                -0.011076527647674084,
+                0.007028612308204174,
+                -0.015599744394421577,
+                0.005618301685899496,
+                -0.002000622684136033,
+                0.039929457008838654,
+                -0.000522375397849828,
+                0.03875790163874626,
+                -0.03608230873942375,
+                0.011747502721846104,
+                0.053724255412817,
+                -0.005269074346870184,
+                -0.12243808060884476,
+                0.14300237596035004,
+                -0.025165757164359093,
+                0.022899635136127472,
+                0.02159033715724945,
+                -0.026356978341937065,
+                0.016139177605509758,
+                -0.009882776066660881,
+                0.03794195130467415,
+                0.017285669222474098,
+                0.028851861134171486,
+                -0.006661856081336737,
+                0.06214628368616104,
+                0.01426207646727562,
+                0.01481365691870451,
+                0.031713880598545074,
+                0.03400140628218651,
+                -0.022516192868351936,
+                0.036660537123680115,
+                -0.05786098912358284,
+                -0.007670402526855469,
+                -0.0050512440502643585,
+                -0.04645929113030434,
+                0.01037804875522852,
+                -0.02203427627682686,
+                0.046166978776454926,
+                -0.025214847177267075,
+                0.02625584788620472,
+                -0.02906261570751667,
+                0.02591470256447792,
+                0.051691215485334396,
+                0.01663549616932869,
+                -0.01675572618842125,
+                -0.045782480388879776,
+                -0.024160483852028847,
+                -0.0129470219835639,
+                -0.026242930442094803,
+                0.40846607089042664,
+                -0.019989503547549248,
+                0.006771599408239126,
+                0.10643934458494186,
+                0.009345910511910915,
+                -0.006410729140043259,
+                -0.009697353467345238,
+                -0.026227205991744995,
+                0.0054657720029354095,
+                0.043342508375644684,
+                0.02831309288740158,
+                -0.03564506396651268,
+                0.023387830704450607,
+                0.014794962480664253,
+                -0.0026812751311808825,
+                0.026594528928399086,
+                0.034973930567502975,
+                -0.06351272016763687,
+                0.006747330538928509,
+                0.002069554990157485,
+                -0.10075447708368301,
+                0.0077734836377203465,
+                0.02626192383468151,
+                0.004997228737920523,
+                0.004416351672261953,
+                -0.029200367629528046,
+                -0.03484533727169037,
+                0.039426352828741074,
+                0.04630163311958313,
+                -0.02073339931666851,
+                0.04102833569049835,
+                -0.0140067208558321,
+                0.057472314685583115,
+                -0.032130297273397446,
+                -0.011139115318655968,
+                0.008396130986511707,
+                0.0439886599779129,
+                0.015369579195976257,
+                0.00365969049744308,
+                0.035571157932281494,
+                0.006296500097960234,
+                -0.04453723877668381,
+                0.01898493431508541,
+                -0.012231480330228806,
+                -0.06925137341022491,
+                -0.05062437802553177,
+                0.01853216625750065,
+                0.024039629846811295,
+                0.016487039625644684,
+                -0.015707051381468773,
+                -0.014941118657588959,
+                -0.0013948993291705847,
+                -0.02815810777246952,
+                0.05577678605914116,
+                0.011848285794258118,
+                0.052636224776506424,
+                -0.06065114215016365,
+                0.02117510698735714,
+                0.01364560890942812,
+                -0.0070062074810266495,
+                0.03334742411971092,
+                0.013001189567148685,
+                -0.03002810850739479,
+                -0.02746265009045601,
+                0.043072592467069626,
+                -0.025528060272336006,
+                -0.14262796938419342,
+                -0.004200971685349941,
+                0.021811533719301224,
+                -0.01117644738405943,
+                0.03504545986652374,
+                0.02223765105009079,
+                0.06633619219064713,
+                -0.008036418817937374,
+                0.019938625395298004,
+                0.13305547833442688,
+                -0.005012925714254379,
+                -0.018123092129826546,
+                0.009739859029650688,
+                -0.016222473233938217,
+                0.02537066675722599,
+                0.027040181681513786,
+                -0.027153775095939636,
+                0.033557597547769547,
+                0.022062677890062332,
+                -0.013001452200114727,
+                -0.039353277534246445,
+                0.04250313714146614,
+                -0.03555842489004135,
+                -0.0450066402554512,
+                -0.04157710447907448,
+                -0.011953920125961304,
+                0.07199712097644806,
+                -0.0550806038081646,
+                0.050169654190540314,
+                0.003586882259696722,
+                0.03736924007534981,
+                0.032037604600191116,
+                -0.014817318879067898,
+                0.01610436663031578,
+                0.033765390515327454,
+                0.007143635768443346,
+                0.05815361067652702,
+                -0.06760945171117783,
+                0.02845779061317444,
+                -0.05500277876853943,
+                -0.017485324293375015,
+                -0.02540424093604088,
+                -0.00547654228284955,
+                0.03572070598602295,
+                0.06488082557916641,
+                -0.0285494364798069,
+                0.00883215107023716,
+                0.08566935360431671,
+                0.01911417581140995,
+                0.010490265674889088,
+                -0.04665734991431236,
+                0.04318282753229141,
+                0.08581414818763733,
+                -0.023738175630569458,
+                0.0331014059484005,
+                0.04533693566918373,
+                0.08761611580848694,
+                -0.07156022638082504,
+                -0.28430095314979553,
+                0.015079047530889511,
+                -0.04611961171030998,
+                -0.018843892961740494,
+                -0.0022868106607347727,
+                -0.05388743057847023,
+                -0.008204083889722824,
+                -0.008746392093598843,
+                0.016835927963256836,
+                -0.027994684875011444,
+                0.08805108070373535,
+                -0.010696198791265488,
+                -0.0016723122680559754,
+                -0.09049942344427109,
+                0.004211015067994595,
+                -0.01516046468168497,
+                0.025316692888736725,
+                0.02850416861474514,
+                -0.028052736073732376,
+                -0.0681658536195755,
+                -0.009741056710481644,
+                -0.0010972904274240136,
+                0.05684778466820717,
+                -0.09345052391290665,
+                -0.049805279821157455,
+                -0.022448668256402016,
+                0.08888734877109528,
+                0.07967574894428253,
+                0.03212539851665497,
+                -0.011426948010921478,
+                0.03009646385908127,
+                -0.04762186482548714,
+                0.016235580667853355,
+                -0.14173246920108795,
+                -0.013287882320582867,
+                0.07731256633996964,
+                0.07124663889408112,
+                0.023941218852996826,
+                -0.016044076532125473,
+                -0.053668949753046036,
+                -0.003184113185852766,
+                0.03237679600715637,
+                -0.014379429630935192,
+                -0.06360072642564774,
+                -0.0873926430940628,
+                -0.059552669525146484,
+                -0.06254146993160248,
+                0.012141221202909946,
+                -0.05867336690425873,
+                0.01208134088665247,
+                0.01804931089282036,
+                -0.03878448158502579,
+                0.024146024137735367,
+                0.036565039306879044,
+                -0.01579074189066887,
+                -0.061851806938648224,
+                0.030377566814422607,
+                0.01926177181303501,
+                -0.04299166798591614,
+                0.05802485719323158,
+                -0.025455107912421227,
+                0.016931038349866867,
+                0.015617596916854382,
+                -0.02869408205151558,
+                -0.0263990331441164,
+                0.02397044189274311,
+                -0.005189803894609213,
+                0.05768824741244316,
+                0.03650008141994476,
+                -0.05593426898121834,
+                -0.029417311772704124,
+                -0.013260111212730408,
+                -0.031514815986156464,
+                -0.011922684498131275,
+                0.01589801535010338,
+                0.018779350444674492,
+                -0.012080349028110504,
+                0.012685811147093773,
+                0.018836012110114098,
+                0.008541867136955261,
+                -0.03677991405129433,
+                -0.057235535234212875,
+                0.00881071574985981,
+                -0.04375163093209267,
+                0.01569245010614395,
+                0.055589888244867325,
+                -0.007615047041326761,
+                0.024595215916633606,
+                0.017947757616639137,
+                0.00529894046485424,
+                0.00036361825186759233,
+                0.06977783888578415,
+                -0.04666657745838165,
+                -0.06870956718921661,
+                0.02236262708902359,
+                -0.0016834132838994265,
+                -0.2821498513221741,
+                0.017451563850045204,
+                -0.04751656949520111,
+                -0.07822692394256592,
+                -0.05046328529715538,
+                0.06321610510349274,
+                0.06857015937566757,
+                -0.05991288274526596,
+                -0.01965080015361309,
+                0.02258395217359066,
+                -0.06804381310939789,
+                0.029833294451236725,
+                -0.011149922385811806,
+                0.01518110278993845,
+                0.03873104602098465,
+                0.008685893379151821,
+                0.010145513340830803,
+                0.01076766848564148,
+                0.030441690236330032,
+                -0.05035287141799927,
+                -0.025143133476376534,
+                0.031318601220846176,
+                0.16052637994289398,
+                -0.025746462866663933,
+                0.07613939046859741,
+                0.005323323421180248,
+                -0.02041075937449932,
+                -0.04049723595380783,
+                0.0035374315921217203,
+                -0.02308550849556923,
+                -0.023718412965536118,
+                -0.04150289297103882,
+                0.054640915244817734,
+                -0.024106435477733612,
+                0.024258015677332878,
+                -0.008414804004132748,
+                0.03333171829581261,
+                0.048694852739572525,
+                0.006041761953383684,
+                0.02966165542602539,
+                0.03827085718512535,
+                -0.014154043979942799,
+                0.0015015903627499938,
+                0.08184074610471725,
+                0.07516183704137802,
+                -0.004428766202181578,
+                -0.039532620459795,
+                -0.0195704847574234,
+                -0.021187735721468925,
+                -0.05120224878191948,
+                -0.06288530677556992,
+                -0.023972557857632637,
+                0.03954117000102997,
+                0.006042781751602888,
+                -0.005187535658478737,
+                0.042691927403211594,
+                -0.0729781910777092,
+                -0.009429708123207092,
+                -0.042412079870700836,
+                -0.00917414203286171,
+                -0.04887531325221062,
+                -0.020252693444490433,
+                0.03453309088945389,
+                0.03481540083885193,
+                -0.002810867503285408
+            ]
+        },
+        {
+            "chunk_id": 2,
+            "embedding": [
+                -0.06726254522800446,
+                -0.019527491182088852,
+                -0.003987213131040335,
+                -0.061012107878923416,
+                0.03418953716754913,
+                -0.024764111265540123,
+                0.05888522416353226,
+                0.02428104355931282,
+                0.020599331706762314,
+                0.01631019450724125,
+                -0.02152257040143013,
+                0.0019520001951605082,
+                -0.0012958592269569635,
+                0.02242986112833023,
+                0.03338148444890976,
+                -0.006037034094333649,
+                -0.00048555139801464975,
+                -0.022189738228917122,
+                -0.0656643658876419,
+                0.004397318232804537,
+                0.04553024098277092,
+                0.027473874390125275,
+                0.006557317916303873,
+                -0.04569632187485695,
+                -0.07645387202501297,
+                0.06910712271928787,
+                -0.006654124706983566,
+                -0.04795875772833824,
+                0.047832392156124115,
+                -0.11342182755470276,
+                -0.03358248993754387,
+                -0.004944867454469204,
+                0.09020466357469559,
+                -0.014172307215631008,
+                0.012291373685002327,
+                0.007020784541964531,
+                0.03306309133768082,
+                0.0005285212537273765,
+                -0.007512250449508429,
+                0.0014576426474377513,
+                0.02860313281416893,
+                -0.06423325091600418,
+                -0.04733506590127945,
+                -0.025621211156249046,
+                -0.03259672597050667,
+                -0.029514940455555916,
+                -0.006999849807471037,
+                0.0459974966943264,
+                -0.06980576366186142,
+                -0.0396457202732563,
+                -0.01370165403932333,
+                -0.053146760910749435,
+                0.007120446767657995,
+                -0.01640717126429081,
+                0.03641030192375183,
+                0.04270084574818611,
+                0.03945676237344742,
+                0.11367276310920715,
+                0.02854384481906891,
+                0.00692477822303772,
+                0.02568555623292923,
+                -0.03620090335607529,
+                -0.09983330965042114,
+                0.03965176269412041,
+                0.01901383325457573,
+                0.0352054201066494,
+                -0.023999422788619995,
+                0.013374789617955685,
+                0.039477892220020294,
+                -0.016335995867848396,
+                -0.007803480140864849,
+                -0.005581324454396963,
+                0.030143147334456444,
+                0.059458523988723755,
+                0.05227880924940109,
+                0.004426148720085621,
+                0.009133446030318737,
+                -0.028821460902690887,
+                0.06888943910598755,
+                -0.05089148133993149,
+                0.0038278724532574415,
+                -0.014106563292443752,
+                0.0032755190040916204,
+                0.0326026976108551,
+                -0.04549078643321991,
+                -0.02388892136514187,
+                0.03655804693698883,
+                0.06874822825193405,
+                0.056361522525548935,
+                -0.004559617955237627,
+                -0.02298160456120968,
+                -0.04299077391624451,
+                -0.03782457858324051,
+                0.04339693859219551,
+                0.021496063098311424,
+                0.002192329615354538,
+                -0.01821889542043209,
+                0.033975712954998016,
+                -0.030712854117155075,
+                0.40804916620254517,
+                -0.0345948226749897,
+                0.008469472639262676,
+                0.01754700019955635,
+                -0.034023918211460114,
+                -0.033366937190294266,
+                -0.04692588746547699,
+                0.0318344384431839,
+                -0.0325300469994545,
+                0.025949552655220032,
+                0.004415096715092659,
+                0.011165088973939419,
+                0.07094822078943253,
+                -0.029147131368517876,
+                0.03461288660764694,
+                -0.019240418449044228,
+                -0.016291843727231026,
+                0.010297253727912903,
+                -0.007276797201484442,
+                0.043538112193346024,
+                -0.02440655790269375,
+                0.005504581145942211,
+                -0.0018012317596003413,
+                0.040626123547554016,
+                -0.0026890139561146498,
+                0.028388170525431633,
+                0.0013789450749754906,
+                0.0720221996307373,
+                0.054323289543390274,
+                -0.028818856924772263,
+                0.05161988362669945,
+                0.06204063445329666,
+                -0.005564885213971138,
+                -0.07421217858791351,
+                -0.004665799904614687,
+                0.044836923480033875,
+                0.03844091296195984,
+                -0.025113780051469803,
+                -0.011169252917170525,
+                -8.943245484260842e-05,
+                0.08407191932201385,
+                -0.03434550389647484,
+                0.0003338893875479698,
+                -0.02675560489296913,
+                -0.06592822074890137,
+                -0.0376744382083416,
+                0.08294808864593506,
+                0.03538746386766434,
+                0.06630835682153702,
+                0.039852384477853775,
+                -0.04618699848651886,
+                -0.009863652288913727,
+                0.032728299498558044,
+                0.002778567373752594,
+                -0.016102297231554985,
+                0.0019941464997828007,
+                -0.002721943659707904,
+                0.020436519756913185,
+                -0.012628148309886456,
+                0.03746211528778076,
+                0.02338648959994316,
+                -0.03530474752187729,
+                -0.03158949688076973,
+                -0.06479997932910919,
+                0.09019194543361664,
+                -0.018554916605353355,
+                -0.1154358834028244,
+                0.0032567812595516443,
+                0.008569613099098206,
+                0.025012832134962082,
+                0.015623406507074833,
+                0.010112903080880642,
+                0.07239321619272232,
+                0.0075284759514033794,
+                -0.004013294354081154,
+                0.02607506699860096,
+                -0.014582915231585503,
+                -0.038073811680078506,
+                -0.008241865783929825,
+                0.0021858518011868,
+                -0.027568720281124115,
+                0.040846195071935654,
+                -0.06784823536872864,
+                -0.014975173398852348,
+                0.017931165173649788,
+                0.002215341432020068,
+                -0.021687569096684456,
+                0.009380752220749855,
+                -0.032301150262355804,
+                0.03177786245942116,
+                -0.0024115722626447678,
+                0.03897031396627426,
+                0.04681651294231415,
+                -0.05829836055636406,
+                0.009906577877700329,
+                0.004371157381683588,
+                0.008535350672900677,
+                0.015656428411602974,
+                -0.0034479971509426832,
+                -0.05652543157339096,
+                0.01829463243484497,
+                -0.10359471291303635,
+                0.0054139671847224236,
+                0.022919336333870888,
+                0.03483099862933159,
+                -0.0054033370688557625,
+                0.01643499918282032,
+                0.052659936249256134,
+                0.00279102916829288,
+                0.09351805597543716,
+                0.012998583726584911,
+                -0.0007691208738833666,
+                -0.03475081920623779,
+                0.0024905980098992586,
+                -0.05172629654407501,
+                0.04341624304652214,
+                -0.10395092517137527,
+                0.04705009609460831,
+                0.0012757770018652081,
+                -0.08574707061052322,
+                0.006629558280110359,
+                -0.03508950024843216,
+                0.03806589916348457,
+                -0.03600383177399635,
+                -0.26631826162338257,
+                -0.0066924504935741425,
+                -0.029751000925898552,
+                -0.014727615751326084,
+                -0.02529730647802353,
+                -0.056917063891887665,
+                0.009237787686288357,
+                0.029474852606654167,
+                -0.04269140586256981,
+                0.0691540464758873,
+                0.1051282286643982,
+                -0.03185879439115524,
+                0.032188717275857925,
+                -0.04164544865489006,
+                -0.029133740812540054,
+                -0.031223267316818237,
+                0.006833107676357031,
+                0.026851272210478783,
+                -0.05005006492137909,
+                0.022951124235987663,
+                -0.060225289314985275,
+                0.0051479944959282875,
+                0.07606471329927444,
+                -0.12237190455198288,
+                -0.018228184431791306,
+                -0.00522738927975297,
+                0.12017980217933655,
+                0.035394757986068726,
+                -0.02684715762734413,
+                -0.030291847884655,
+                0.004380541853606701,
+                -0.07204844057559967,
+                -0.03749198466539383,
+                -0.12248759716749191,
+                0.019976463168859482,
+                0.014590395614504814,
+                0.008410894311964512,
+                -0.011477665975689888,
+                -0.022982217371463776,
+                -0.014500363729894161,
+                -0.018531469628214836,
+                -0.0006963208434171975,
+                0.001690280856564641,
+                -0.03782126307487488,
+                -0.014174657873809338,
+                -0.049889352172613144,
+                -0.0211335401982069,
+                -0.035459004342556,
+                -0.029341712594032288,
+                -0.04380590096116066,
+                0.0030957830604165792,
+                0.014060848392546177,
+                0.01364517118781805,
+                0.008360316976904869,
+                -0.12453001737594604,
+                -0.025068074464797974,
+                0.004693053662776947,
+                0.01081546675413847,
+                0.018191715702414513,
+                0.05974264815449715,
+                -0.03515823185443878,
+                0.03174600750207901,
+                -0.034865010529756546,
+                -0.020932232961058617,
+                0.047708407044410706,
+                -0.026707224547863007,
+                -0.024517662823200226,
+                -0.006041370797902346,
+                0.028575483709573746,
+                -0.009292874485254288,
+                -0.01584981568157673,
+                0.10507135838270187,
+                -0.027637168765068054,
+                -0.056237321346998215,
+                -0.003814580151811242,
+                -0.00959471333771944,
+                0.032434217631816864,
+                -0.028394220396876335,
+                0.03478839620947838,
+                0.038791194558143616,
+                -0.0064446344040334225,
+                -0.001466332352720201,
+                -0.01239184383302927,
+                0.008753040805459023,
+                0.04660409688949585,
+                0.023905299603939056,
+                0.004873909521847963,
+                -0.04587854444980621,
+                0.004076617304235697,
+                -0.027788599953055382,
+                -0.017285624518990517,
+                0.034561775624752045,
+                -0.07670021057128906,
+                -0.07763136923313141,
+                -0.02519267052412033,
+                0.005318119656294584,
+                -0.2643638253211975,
+                0.022502215579152107,
+                0.0600656159222126,
+                0.00875849463045597,
+                0.009807735681533813,
+                0.06540495157241821,
+                0.04103514552116394,
+                -0.039079997688531876,
+                -0.02565210685133934,
+                0.02776392176747322,
+                0.053352706134319305,
+                0.027438730001449585,
+                0.04619977995753288,
+                -0.05202537402510643,
+                0.031176552176475525,
+                0.14136183261871338,
+                0.09413637220859528,
+                -0.026763800531625748,
+                -0.025007672607898712,
+                -0.025117328390479088,
+                0.037759602069854736,
+                0.11289113759994507,
+                0.17068132758140564,
+                -0.0294441320002079,
+                0.0474272295832634,
+                0.0485624261200428,
+                -0.037202488631010056,
+                0.07783731818199158,
+                0.03601893037557602,
+                0.007954375818371773,
+                0.009668657556176186,
+                -0.05667010694742203,
+                0.006374381948262453,
+                0.02399885654449463,
+                0.03210672736167908,
+                -0.009881889447569847,
+                0.031898777931928635,
+                -0.06941915303468704,
+                -0.0017898700898513198,
+                0.04103173315525055,
+                0.008463289588689804,
+                -0.016936136409640312,
+                -0.00888479221612215,
+                0.026820339262485504,
+                0.06502460688352585,
+                0.008168165571987629,
+                -0.0377146378159523,
+                -0.09749245643615723,
+                0.0020781690254807472,
+                0.012556472793221474,
+                -0.0413147434592247,
+                -0.090981125831604,
+                -0.019629603251814842,
+                -0.013982509262859821,
+                0.03182603418827057,
+                0.029485683888196945,
+                -0.0026562558487057686,
+                -0.024462003260850906,
+                -0.0456954687833786,
+                -0.019595881924033165,
+                0.015113756991922855,
+                -0.04571416974067688,
+                0.0031335612293332815,
+                0.019406594336032867,
+                0.04250110313296318
+            ]
+        },
+        {
+            "chunk_id": 3,
+            "embedding": [
+                -0.05450868606567383,
+                0.0023466439452022314,
+                0.0075364308431744576,
+                -0.06759639829397202,
+                -0.029399773105978966,
+                -0.017887117341160774,
+                0.061412956565618515,
+                -0.013156202621757984,
+                0.04932403191924095,
+                -0.01819685474038124,
+                0.011089960113167763,
+                0.009005945175886154,
+                0.011075053364038467,
+                -0.00886688381433487,
+                0.027562353760004044,
+                0.01524187158793211,
+                -0.01392672024667263,
+                -0.058198243379592896,
+                0.019520027562975883,
+                0.011165258474647999,
+                0.0106026791036129,
+                -0.04564218968153,
+                -0.06320873647928238,
+                -0.0006880949367769063,
+                -0.03536726534366608,
+                0.042666081339120865,
+                0.016359157860279083,
+                -0.016886746510863304,
+                -0.011769147589802742,
+                -0.1328611969947815,
+                0.019661763682961464,
+                0.0014784904196858406,
+                0.08108057826757431,
+                0.008665483444929123,
+                0.018764575943350792,
+                0.031795863062143326,
+                -0.01575727015733719,
+                -0.012575621716678143,
+                -0.08659328520298004,
+                -0.014478997327387333,
+                0.04439641535282135,
+                -0.05846739932894707,
+                0.022330747917294502,
+                -0.006994854658842087,
+                0.03223320469260216,
+                -0.05496608838438988,
+                0.005728646647185087,
+                0.0016787908971309662,
+                -0.027010053396224976,
+                -0.09108492732048035,
+                0.07242638617753983,
+                0.004208466969430447,
+                0.020390203222632408,
+                -0.012898772023618221,
+                0.01827719435095787,
+                0.032379377633333206,
+                0.0880507305264473,
+                0.09996137022972107,
+                0.05646246299147606,
+                0.0046128458343446255,
+                0.025146784260869026,
+                0.04889301955699921,
+                -0.11514473706483841,
+                0.08683578670024872,
+                0.07910081744194031,
+                0.005349416751414537,
+                -0.05611396208405495,
+                -0.03155781701207161,
+                0.02622462995350361,
+                0.026563376188278198,
+                -0.006430061534047127,
+                -0.06576289981603622,
+                0.02612442709505558,
+                -0.012484121136367321,
+                0.0031550759449601173,
+                0.10675583779811859,
+                -0.01047035027295351,
+                -0.01348650362342596,
+                0.01439585629850626,
+                -0.06466852128505707,
+                0.0484251044690609,
+                -0.05061798542737961,
+                -0.01784561201930046,
+                0.06479296833276749,
+                -0.06477966904640198,
+                0.0007869346300140023,
+                0.005797120742499828,
+                0.0029531766194850206,
+                0.043660908937454224,
+                -0.01492630410939455,
+                -0.07052048295736313,
+                0.031541191041469574,
+                -0.04725857079029083,
+                0.03444669395685196,
+                0.030241219326853752,
+                -0.028944723308086395,
+                -0.02938484400510788,
+                -0.031070291996002197,
+                -0.012964674271643162,
+                0.3075454533100128,
+                0.005582538899034262,
+                -0.06833760440349579,
+                0.02178698033094406,
+                0.02498706802725792,
+                -0.043779391795396805,
+                -0.05239299684762955,
+                -0.033905383199453354,
+                -0.020372269675135612,
+                -0.08124463260173798,
+                0.034192174673080444,
+                -0.06351356208324432,
+                0.0009341973345726728,
+                -0.019525889307260513,
+                0.0690440982580185,
+                0.05233655869960785,
+                0.018373850733041763,
+                0.012343160808086395,
+                0.03390791267156601,
+                0.039893604815006256,
+                -0.026583382859826088,
+                0.03165294975042343,
+                0.028201941400766373,
+                -0.03839845955371857,
+                -0.005209342110902071,
+                0.046815015375614166,
+                -0.002914566546678543,
+                0.03791450336575508,
+                0.04844502732157707,
+                -0.04794725775718689,
+                -0.0011225002817809582,
+                0.07669208198785782,
+                0.01512869168072939,
+                -0.04012628644704819,
+                0.027184905484318733,
+                0.08166860044002533,
+                0.03254173323512077,
+                -0.055809829384088516,
+                0.001190117560327053,
+                -0.0023669360671192408,
+                0.08233217895030975,
+                0.016209932044148445,
+                0.057291969656944275,
+                0.029087115079164505,
+                -0.07945392280817032,
+                -0.01586945541203022,
+                0.0929432287812233,
+                0.03433035686612129,
+                0.013917450793087482,
+                -0.06143893674015999,
+                -0.012659040279686451,
+                0.057142987847328186,
+                0.03192676231265068,
+                -0.01922771707177162,
+                -0.06934954226016998,
+                -0.013941786251962185,
+                0.03054908663034439,
+                0.02062179706990719,
+                0.0006790675106458366,
+                -0.04128696024417877,
+                0.04051841050386429,
+                -0.0013990371953696012,
+                0.01882723532617092,
+                -0.06535313278436661,
+                0.12979662418365479,
+                0.054878950119018555,
+                -0.06695231050252914,
+                0.05787563696503639,
+                -0.029442690312862396,
+                0.06397930532693863,
+                0.022527780383825302,
+                0.025920633226633072,
+                0.04808390140533447,
+                -0.028122222051024437,
+                -0.0018967095529660583,
+                -0.040718626230955124,
+                -0.04029104486107826,
+                -0.044420864433050156,
+                -0.01098927203565836,
+                -0.05351926013827324,
+                0.015284629538655281,
+                0.04780758172273636,
+                -0.0007271186332218349,
+                0.04231805354356766,
+                0.04298839718103409,
+                -0.0008631902746856213,
+                -0.0282602459192276,
+                -0.00578625313937664,
+                -0.06128063425421715,
+                0.004404008388519287,
+                -0.04963874816894531,
+                0.00829037930816412,
+                0.09585044533014297,
+                -0.010561934672296047,
+                0.03950093686580658,
+                -0.011020495556294918,
+                0.038190022110939026,
+                0.012292650528252125,
+                0.021069061011075974,
+                -0.10563910752534866,
+                0.01472930982708931,
+                -0.10387945175170898,
+                0.0011359063209965825,
+                -0.07544704526662827,
+                0.04892480745911598,
+                0.007959811948239803,
+                -0.03075074590742588,
+                -0.03945313021540642,
+                0.024959009140729904,
+                -0.0016808290965855122,
+                0.02755572274327278,
+                0.02730576880276203,
+                -0.047406844794750214,
+                0.07087815552949905,
+                -0.03473293036222458,
+                -0.06291739642620087,
+                -0.0010118294740095735,
+                0.0015297135105356574,
+                0.016277236863970757,
+                -0.0490371510386467,
+                0.02387508749961853,
+                -0.0023173049557954073,
+                0.07126040756702423,
+                -0.006169861648231745,
+                -0.2682814300060272,
+                -0.02166697382926941,
+                0.005229420959949493,
+                -0.0641511008143425,
+                -0.012753094546496868,
+                -0.06939345598220825,
+                0.04961428791284561,
+                -0.049538031220436096,
+                0.06176484003663063,
+                0.03541802614927292,
+                0.05022149533033371,
+                0.007475597783923149,
+                0.02270735427737236,
+                -0.030052902176976204,
+                0.048979807645082474,
+                0.03467974811792374,
+                -0.006943880580365658,
+                0.07420215755701065,
+                -0.09232432395219803,
+                0.0676916316151619,
+                -0.03305999934673309,
+                0.03302406892180443,
+                0.04964848980307579,
+                -0.11236690729856491,
+                -0.07341229915618896,
+                0.008494732901453972,
+                0.1185828149318695,
+                -0.03803516924381256,
+                0.003278286661952734,
+                0.05684706196188927,
+                -4.5893157221144065e-05,
+                -0.010771741159260273,
+                -0.025376679375767708,
+                -0.07690656185150146,
+                0.050921060144901276,
+                0.025373172014951706,
+                0.024008236825466156,
+                0.02156512439250946,
+                0.037599071860313416,
+                0.028956975787878036,
+                -0.06091805547475815,
+                0.00019790009537246078,
+                -0.013294178992509842,
+                -0.043957438319921494,
+                -0.02614451013505459,
+                -0.043493371456861496,
+                0.014825488440692425,
+                -0.08269450813531876,
+                -0.019924400374293327,
+                -0.0008323945803567767,
+                0.001865365426056087,
+                0.015525841154158115,
+                -0.0391024574637413,
+                -0.006431126967072487,
+                -0.034302983433008194,
+                -0.02497102878987789,
+                -0.021846769377589226,
+                0.05122454836964607,
+                -0.02890869602560997,
+                0.052205778658390045,
+                -0.015610406175255775,
+                0.007121470756828785,
+                -0.07822616398334503,
+                -0.026460599154233932,
+                0.0879051685333252,
+                -0.03198139742016792,
+                -0.015780270099639893,
+                0.026619629934430122,
+                -0.008554782718420029,
+                0.055027075111866,
+                -0.025332659482955933,
+                0.07497985661029816,
+                -0.02540711872279644,
+                -0.011475514620542526,
+                0.040847111493349075,
+                -0.05181782692670822,
+                0.031000256538391113,
+                -0.08524173498153687,
+                -0.028069529682397842,
+                0.04793330281972885,
+                0.028477204963564873,
+                -0.03782421350479126,
+                0.025327937677502632,
+                0.005905925761908293,
+                0.03990619257092476,
+                0.010994791984558105,
+                -0.022176895290613174,
+                -0.01843666471540928,
+                0.0014407509006559849,
+                0.006971658207476139,
+                -0.039632976055145264,
+                0.051292598247528076,
+                -0.037028294056653976,
+                -0.06405835598707199,
+                0.0047618187963962555,
+                0.009290255606174469,
+                -0.27772149443626404,
+                0.030427642166614532,
+                0.018187984824180603,
+                0.0333218015730381,
+                -0.07917807251214981,
+                -0.02518475614488125,
+                0.03944901376962662,
+                0.02371700294315815,
+                -0.04626920074224472,
+                0.027074037119746208,
+                -0.02922670915722847,
+                0.004016183782368898,
+                -0.006944791879504919,
+                -0.010366945527493954,
+                -0.0050338879227638245,
+                0.10176154226064682,
+                0.11843784153461456,
+                -0.08071465790271759,
+                -0.04130670055747032,
+                -0.0615299828350544,
+                -0.008433453738689423,
+                0.003324319841340184,
+                0.1470775306224823,
+                -0.05920441448688507,
+                0.051495641469955444,
+                0.010519415140151978,
+                -0.05465841293334961,
+                0.026047151535749435,
+                0.022448228672146797,
+                -0.01614322140812874,
+                0.028299076482653618,
+                -0.04621290788054466,
+                0.023647109046578407,
+                -0.03330617770552635,
+                0.035016320645809174,
+                0.016368338838219643,
+                1.446641908842139e-05,
+                -0.057000771164894104,
+                0.02610803209245205,
+                0.009251998737454414,
+                0.015996668487787247,
+                0.048634547740221024,
+                0.015916386619210243,
+                -0.008456856943666935,
+                0.0402396135032177,
+                0.04719175770878792,
+                -0.06479204446077347,
+                -0.00465239817276597,
+                0.04526272788643837,
+                0.05810149013996124,
+                -0.008027661591768265,
+                -0.006107737310230732,
+                -0.012244661338627338,
+                -0.007214424200356007,
+                0.07201032340526581,
+                0.01016121543943882,
+                -0.05623906850814819,
+                -0.040249474346637726,
+                0.009540035389363766,
+                -0.05032188817858696,
+                0.01896582543849945,
+                -0.029628684744238853,
+                0.06165977939963341,
+                -0.011809089221060276,
+                -0.013787925243377686
+            ]
+        },
+        {
+            "chunk_id": 4,
+            "embedding": [
+                -0.028945209458470345,
+                -0.011848759837448597,
+                0.009957744739949703,
+                -0.06468041241168976,
+                0.013244356028735638,
+                -0.03968019038438797,
+                0.07556162029504776,
+                0.019147172570228577,
+                -0.029371390119194984,
+                -0.023846568539738655,
+                -0.01915665529668331,
+                -0.02021719329059124,
+                0.011117160320281982,
+                0.021959766745567322,
+                -0.044417619705200195,
+                0.040074363350868225,
+                -0.004077756777405739,
+                0.05432604253292084,
+                -0.05132116377353668,
+                -0.036690667271614075,
+                0.09119073301553726,
+                -0.0003358321264386177,
+                0.012925467453897,
+                -0.03570796921849251,
+                -0.043380461633205414,
+                0.06439341604709625,
+                -0.035564325749874115,
+                -0.034067075699567795,
+                0.029891228303313255,
+                -0.06662704795598984,
+                -0.053177155554294586,
+                -0.012237602844834328,
+                0.03183229640126228,
+                0.02521541714668274,
+                -0.06247621774673462,
+                0.014700123108923435,
+                -0.031014511361718178,
+                0.012081705033779144,
+                -0.012445803731679916,
+                -0.01302727684378624,
+                0.04078688845038414,
+                -0.0060189999639987946,
+                0.016343705356121063,
+                -0.02953188121318817,
+                0.03064982034265995,
+                -0.012965760193765163,
+                -0.0487791933119297,
+                0.030779093503952026,
+                0.005504482891410589,
+                -0.023141808807849884,
+                -0.024400247260928154,
+                -0.056296661496162415,
+                -0.003655733773484826,
+                -0.0045268046669662,
+                0.03651877120137215,
+                0.001780167454853654,
+                0.0054929740726947784,
+                0.09542988240718842,
+                0.022660957649350166,
+                0.013103781268000603,
+                0.05868511646986008,
+                0.006694209296256304,
+                -0.0880938246846199,
+                0.07155958563089371,
+                0.06784452497959137,
+                0.03845254331827164,
+                -0.03956800326704979,
+                -0.001322267111390829,
+                -0.016852062195539474,
+                -0.014940187335014343,
+                0.03287428244948387,
+                -0.012931409291923046,
+                0.010862324386835098,
+                0.028551382943987846,
+                0.04030634090304375,
+                0.03178044408559799,
+                0.007303164340555668,
+                -0.056925397366285324,
+                0.012018373236060143,
+                0.009739545173943043,
+                0.027949191629886627,
+                -0.08187470585107803,
+                -0.0011663539335131645,
+                0.007337174378335476,
+                -0.026138128712773323,
+                0.007205467205494642,
+                0.06713087111711502,
+                0.058574676513671875,
+                0.08604947477579117,
+                0.006809820421040058,
+                -0.06389942020177841,
+                -0.063682422041893,
+                -0.035916417837142944,
+                0.04948236420750618,
+                0.04968499764800072,
+                0.03751467540860176,
+                0.003100425936281681,
+                0.02161264605820179,
+                -0.07156844437122345,
+                0.39235398173332214,
+                -0.007405741140246391,
+                -0.024051319807767868,
+                -0.0393250547349453,
+                -0.015781162306666374,
+                -0.021731587126851082,
+                -0.05470786243677139,
+                -0.008132481947541237,
+                -0.021526768803596497,
+                -0.013235479593276978,
+                -0.020688598975539207,
+                0.020928073674440384,
+                0.03277785703539848,
+                -0.026303507387638092,
+                0.01226721704006195,
+                -0.02095184288918972,
+                0.0438382551074028,
+                -0.010531212203204632,
+                0.03738582506775856,
+                0.018453530967235565,
+                -0.05414818972349167,
+                0.04378115385770798,
+                0.013875664211809635,
+                0.023277945816516876,
+                0.02106553502380848,
+                0.011670240201056004,
+                -0.06003694236278534,
+                0.07030008733272552,
+                0.031104426831007004,
+                -0.011184722185134888,
+                0.06174250692129135,
+                0.02971770241856575,
+                0.014415734447538853,
+                -0.016588076949119568,
+                -0.007413484621793032,
+                -0.016103284433484077,
+                0.08242505043745041,
+                -0.03795354440808296,
+                -0.03392943739891052,
+                -0.0126734534278512,
+                0.039589330554008484,
+                -0.029208848252892494,
+                0.02101338654756546,
+                0.006186753511428833,
+                -0.058616600930690765,
+                -0.019712861627340317,
+                0.08352857083082199,
+                0.056135229766368866,
+                0.07278257608413696,
+                0.027642814442515373,
+                -0.08360300213098526,
+                -0.026577940210700035,
+                -0.013247896917164326,
+                0.014335764572024345,
+                -0.008858900517225266,
+                0.023973895236849785,
+                -0.02141476236283779,
+                0.06465554237365723,
+                -0.0017227096250280738,
+                -0.034082017838954926,
+                0.01197092141956091,
+                -0.014220508746802807,
+                0.004091525450348854,
+                -0.04389901086688042,
+                0.04679882898926735,
+                -0.0358126200735569,
+                -0.05365464836359024,
+                0.011449573561549187,
+                0.020523959770798683,
+                -0.010448819026350975,
+                -0.005837243515998125,
+                -0.0179169699549675,
+                0.05238347500562668,
+                -0.02071976475417614,
+                0.02482573501765728,
+                0.010903235524892807,
+                -0.040140315890312195,
+                -0.02768244594335556,
+                0.010415598750114441,
+                -0.010005941614508629,
+                0.02014889009296894,
+                0.04637308791279793,
+                0.000985564780421555,
+                0.011593316681683064,
+                -0.00339131779037416,
+                0.009877199307084084,
+                0.02566114440560341,
+                0.012356850318610668,
+                -0.02573242597281933,
+                -0.004991655237972736,
+                0.014588690362870693,
+                -0.03414784371852875,
+                0.12700589001178741,
+                -0.01672188937664032,
+                0.02284337393939495,
+                0.05640307441353798,
+                -0.005958749912679195,
+                0.004278396721929312,
+                -0.04104721546173096,
+                -0.0263662226498127,
+                -0.025779210031032562,
+                -0.09146103262901306,
+                -0.054533347487449646,
+                0.006760541815310717,
+                0.037566255778074265,
+                -0.025226127356290817,
+                0.013738186098635197,
+                0.030365701764822006,
+                -0.02107596956193447,
+                0.0570685900747776,
+                0.05727989226579666,
+                -0.03707623854279518,
+                -0.09555386751890182,
+                0.07457653433084488,
+                -0.01602230966091156,
+                -0.001009120256640017,
+                -0.0861767902970314,
+                0.08595346659421921,
+                0.07572335004806519,
+                -0.025607800111174583,
+                -0.019527627155184746,
+                0.0042224302887916565,
+                0.074129618704319,
+                -0.08105998486280441,
+                -0.25188109278678894,
+                -0.010326092131435871,
+                -0.026815399527549744,
+                -0.0030738988425582647,
+                0.005383599549531937,
+                -0.006589239463210106,
+                0.015408890321850777,
+                0.03407733514904976,
+                -0.047994907945394516,
+                0.01931290328502655,
+                0.10411898046731949,
+                0.0069191791117191315,
+                0.02140834927558899,
+                -0.0789654478430748,
+                -0.027867570519447327,
+                -0.020941201597452164,
+                0.015498870052397251,
+                0.051743920892477036,
+                -0.07166910171508789,
+                0.027335911989212036,
+                -0.023833390325307846,
+                0.04875059053301811,
+                0.0488867424428463,
+                -0.08058082312345505,
+                0.002811501268297434,
+                -0.029570965096354485,
+                0.13589271903038025,
+                0.025301020592451096,
+                0.05034559592604637,
+                -0.01774582453072071,
+                -0.012134196236729622,
+                -0.009871594607830048,
+                0.02713203802704811,
+                -0.15935824811458588,
+                -0.006769414525479078,
+                0.019366297870874405,
+                -0.0005165641778148711,
+                0.05697564780712128,
+                0.02742786891758442,
+                -0.004010341130197048,
+                -0.008654279634356499,
+                0.010804052464663982,
+                0.010360817424952984,
+                -0.04713224992156029,
+                -0.07683493942022324,
+                -0.057326629757881165,
+                -0.06981183588504791,
+                -0.09180433303117752,
+                -0.057545408606529236,
+                -0.016429133713245392,
+                -0.012958328239619732,
+                -0.0059487540274858475,
+                0.0016710382187739015,
+                0.012729110196232796,
+                -0.07321633398532867,
+                -0.020737214013934135,
+                0.0037044764030724764,
+                -0.019389448687434196,
+                0.0006154047441668808,
+                0.046010855585336685,
+                0.0013974426547065377,
+                0.004619748797267675,
+                -0.04954681545495987,
+                -0.017939362674951553,
+                0.058573782444000244,
+                -0.0031563090160489082,
+                0.0033104880712926388,
+                -0.024067794904112816,
+                0.00658556679263711,
+                -0.03352092206478119,
+                -0.019621053710579872,
+                0.09297864139080048,
+                0.02300339937210083,
+                -0.08226670324802399,
+                -0.025214459747076035,
+                -0.022044504061341286,
+                0.01758505217730999,
+                -0.029036877676844597,
+                0.11434372514486313,
+                0.020716633647680283,
+                0.00613799225538969,
+                -0.02370661497116089,
+                0.013222729787230492,
+                0.034085992723703384,
+                0.06474573165178299,
+                0.09595214575529099,
+                -0.02189704217016697,
+                0.002437186660245061,
+                0.00743832578882575,
+                0.039532821625471115,
+                0.007755981292575598,
+                0.04252903535962105,
+                -0.035366613417863846,
+                -0.03869658708572388,
+                -0.020464804023504257,
+                0.01080499216914177,
+                -0.2652156949043274,
+                0.004405733663588762,
+                -0.020239336416125298,
+                0.03240104019641876,
+                -0.06819040328264236,
+                0.058031611144542694,
+                -0.00046834704698994756,
+                -0.08779940754175186,
+                -0.0054556988179683685,
+                0.052077893167734146,
+                0.031551606953144073,
+                0.04074513539671898,
+                -0.01802782155573368,
+                0.003103393130004406,
+                0.05831777676939964,
+                0.050408001989126205,
+                0.08128581196069717,
+                -0.0011641941964626312,
+                -0.005245505832135677,
+                -0.03186735510826111,
+                -0.010704833082854748,
+                0.0779280960559845,
+                0.17737115919589996,
+                0.02043268270790577,
+                0.015933562070131302,
+                0.0228106752038002,
+                -0.01870030350983143,
+                0.05834959074854851,
+                0.018827639520168304,
+                0.03782213479280472,
+                0.020873837172985077,
+                -0.0738619938492775,
+                -0.00849342904984951,
+                0.030736546963453293,
+                0.002183513483032584,
+                0.06525451689958572,
+                0.01381184346973896,
+                -0.07683484256267548,
+                -0.03818799927830696,
+                0.0030986948404461145,
+                0.03303860127925873,
+                -0.04131845384836197,
+                0.025761470198631287,
+                0.016604866832494736,
+                0.02644490636885166,
+                -8.632519165985286e-05,
+                -0.07339021563529968,
+                -0.12268626689910889,
+                -0.03222547098994255,
+                -0.01353267952799797,
+                -0.06666901707649231,
+                -0.08520837873220444,
+                -0.02015722170472145,
+                -0.027657130733132362,
+                0.026005465537309647,
+                0.038987740874290466,
+                -0.010424033738672733,
+                -0.03228289633989334,
+                -0.042114339768886566,
+                -0.03253532946109772,
+                -0.007128412369638681,
+                -0.02475806139409542,
+                0.029467718675732613,
+                0.0917743667960167,
+                -0.015235407277941704
+            ]
+        }
+    ]
+}
