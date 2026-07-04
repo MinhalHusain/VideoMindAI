@@ -38,3 +38,4 @@ outputs/
 # Python cache
 .pytest_cache/
 .mypy_cache/
+data/videos/aaaa169b-0476-4bb6-b623-ee1149012a33/original.mp4
