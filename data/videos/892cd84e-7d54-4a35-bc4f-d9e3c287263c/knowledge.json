@@ -8731,5 +8731,3192 @@
                 "a screen with the words thank on it"
             ]
         }
+    ],
+    "chunks": [
+        {
+            "chunk_id": 1,
+            "scene": 1,
+            "start": 0.0,
+            "end": 4.0,
+            "text": "Introduction to Redshift.",
+            "ocr": [
+                {
+                    "text": "01",
+                    "confidence": 1.0
+                },
+                {
+                    "text": "Introduction to",
+                    "confidence": 0.9571
+                },
+                {
+                    "text": "Redshift",
+                    "confidence": 1.0
+                },
+                {
+                    "text": "u",
+                    "confidence": 0.2493
+                },
+                {
+                    "text": "01",
+                    "confidence": 1.0
+                },
+                {
+                    "text": "Introduction to",
+                    "confidence": 0.9093
+                },
+                {
+                    "text": "Redshift",
+                    "confidence": 1.0
+                },
+                {
+                    "text": "01",
+                    "confidence": 0.884
+                },
+                {
+                    "text": "Introduction to",
+                    "confidence": 0.9997
+                },
+                {
+                    "text": "Redshift",
+                    "confidence": 1.0
+                },
+                {
+                    "text": "01",
+                    "confidence": 1.0
+                },
+                {
+                    "text": "Introduction to",
+                    "confidence": 0.9789
+                },
+                {
+                    "text": "Redshift",
+                    "confidence": 0.9999
+                },
+                {
+                    "text": "01",
+                    "confidence": 1.0
+                },
+                {
+                    "text": "Introduction to",
+                    "confidence": 0.7054
+                },
+                {
+                    "text": "Redshift",
+                    "confidence": 0.9999
+                },
+                {
+                    "text": "01",
+                    "confidence": 0.9989
+                },
+                {
+                    "text": "Introduction to",
+                    "confidence": 0.9989
+                },
+                {
+                    "text": "Redshift",
+                    "confidence": 1.0
+                },
+                {
+                    "text": "What is Amazon",
+                    "confidence": 0.9885
+                },
+                {
+                    "text": "Fully Managed",
+                    "confidence": 0.7658
+                },
+                {
+                    "text": "Peabyte Scale",
+                    "confidence": 0.596
+                },
+                {
+                    "text": "Automated satup; operation; and",
+                    "confidence": 0.388
+                },
+                {
+                    "text": "Efficiently store and analyze data",
+                    "confidence": 0.6459
+                },
+                {
+                    "text": "Redshift?",
+                    "confidence": 0.999
+                },
+                {
+                    "text": "scallng 0i J dala warehouse.",
+                    "confidence": 0.1788
+                },
+                {
+                    "text": "from gigabytes t0 petabytes",
+                    "confidence": 0.3078
+                },
+                {
+                    "text": "A fully manageL prtabyte -cele cloud data",
+                    "confidence": 0.1396
+                },
+                {
+                    "text": "OLAP Optimized",
+                    "confidence": 0.9995
+                },
+                {
+                    "text": "Fast SQL Queries",
+                    "confidence": 0.7287
+                },
+                {
+                    "text": "warehouse service by Amazon Web Services",
+                    "confidence": 0.8885
+                },
+                {
+                    "text": "Designed for complex queries and",
+                    "confidence": 0.9939
+                },
+                {
+                    "text": "Uses columnar Storage",
+                    "confidence": 0.4005
+                },
+                {
+                    "text": "MPP for",
+                    "confidence": 0.983
+                },
+                {
+                    "text": "(AWSI",
+                    "confidence": 0.324
+                },
+                {
+                    "text": "agpregabons on large dolcets:",
+                    "confidence": 0.0597
+                },
+                {
+                    "text": "Wgh-nelornarEWaatc",
+                    "confidence": 0.0006
+                },
+                {
+                    "text": "Sied Miinhul Hunin Fuvi",
+                    "confidence": 0.1063
+                },
+                {
+                    "text": "Zabanois",
+                    "confidence": 0.2334
+                },
+                {
+                    "text": "and",
+                    "confidence": 0.9787
+                },
+                {
+                    "text": "What is Amazon",
+                    "confidence": 0.912
+                },
+                {
+                    "text": "Fully Managed",
+                    "confidence": 0.9856
+                },
+                {
+                    "text": "Petabyte-Scale",
+                    "confidence": 0.9994
+                },
+                {
+                    "text": "Automated setup; operation; and",
+                    "confidence": 0.9132
+                },
+                {
+                    "text": "Efficiently Store and analyze data",
+                    "confidence": 0.6565
+                },
+                {
+                    "text": "Redshift?",
+                    "confidence": 0.6602
+                },
+                {
+                    "text": "scaling of a data warehouse:",
+                    "confidence": 0.7309
+                },
+                {
+                    "text": "from gigabytes t0 petabytes:",
+                    "confidence": 0.5872
+                },
+                {
+                    "text": "Afully managed, petabyte-scale cloud data",
+                    "confidence": 0.6627
+                },
+                {
+                    "text": "OLAP Optimized",
+                    "confidence": 0.8945
+                },
+                {
+                    "text": "Fast SQL Queries",
+                    "confidence": 0.7332
+                },
+                {
+                    "text": "warehouse service by Amazon Web Services",
+                    "confidence": 0.9003
+                },
+                {
+                    "text": "Deslgned for complex queries and",
+                    "confidence": 0.6367
+                },
+                {
+                    "text": "Uses columnar storage and MPP for",
+                    "confidence": 0.4843
+                },
+                {
+                    "text": "(wS)",
+                    "confidence": 0.1662
+                },
+                {
+                    "text": "\"ggregations on large datasets.",
+                    "confidence": 0.3141
+                },
+                {
+                    "text": "high-perorninceanalvtics",
+                    "confidence": 0.2984
+                },
+                {
+                    "text": "Syed Minhal Huraln Rizvi",
+                    "confidence": 0.3761
+                },
+                {
+                    "text": "Z3bai1011s",
+                    "confidence": 0.3705
+                },
+                {
+                    "text": "What is Amazon",
+                    "confidence": 0.7759
+                },
+                {
+                    "text": "Fully Managed",
+                    "confidence": 1.0
+                },
+                {
+                    "text": "Petabyte-Scale",
+                    "confidence": 0.7738
+                },
+                {
+                    "text": "Automated sctup; operation; and",
+                    "confidence": 0.4413
+                },
+                {
+                    "text": "Efficiently store and analyze data",
+                    "confidence": 0.7903
+                },
+                {
+                    "text": "Redshift?",
+                    "confidence": 0.9434
+                },
+                {
+                    "text": "scaling ot",
+                    "confidence": 0.4619
+                },
+                {
+                    "text": "data Warehouse.",
+                    "confidence": 0.6103
+                },
+                {
+                    "text": "from gigabytes to petabytes:",
+                    "confidence": 0.6317
+                },
+                {
+                    "text": "A fully managed, petabyte-scale cloud data",
+                    "confidence": 0.7171
+                },
+                {
+                    "text": "OLAP Optimized",
+                    "confidence": 0.7974
+                },
+                {
+                    "text": "Fest SQL Queres",
+                    "confidence": 0.7641
+                },
+                {
+                    "text": "worehouse service by Nmnazon Web Services",
+                    "confidence": 0.5427
+                },
+                {
+                    "text": "Dasloncd for complex quuries and",
+                    "confidence": 0.4253
+                },
+                {
+                    "text": "Usts calumnar sinane",
+                    "confidence": 0.0689
+                },
+                {
+                    "text": "HPP for",
+                    "confidence": 0.6334
+                },
+                {
+                    "text": "(AwSI:",
+                    "confidence": 0.2547
+                },
+                {
+                    "text": "aggregations on large datasets:",
+                    "confidence": 0.8368
+                },
+                {
+                    "text": "high-performance analytics.",
+                    "confidence": 0.5539
+                },
+                {
+                    "text": "Syed Minhal Husain Rizvi",
+                    "confidence": 0.8231
+                },
+                {
+                    "text": "23bai10115",
+                    "confidence": 0.9891
+                },
+                {
+                    "text": "and",
+                    "confidence": 0.1409
+                }
+            ],
+            "captions": [
+                "the new redmik tablet",
+                "the new redmik tablet is shown in this image",
+                "the screen of a computer with the text ' introduction to reddit '",
+                "the screen of a tablet with the text ' introduction reddit '",
+                "the screen of a tablet with the text ' introduction to rebirth '",
+                "the screen of a tablet with the text ' introduction to rebirth '",
+                "a screen showing the different features of the amazon store",
+                "a screen showing the features of the amazon redire",
+                "a screen showing the different features of the amazon redire"
+            ]
+        },
+        {
+            "chunk_id": 2,
+            "scene": 2,
+            "start": 4.0,
+            "end": 6.0,
+            "text": "What is our owner of Redshift?",
+            "ocr": [
+                {
+                    "text": "What is Amazon",
+                    "confidence": 0.9958
+                },
+                {
+                    "text": "Fully Managed",
+                    "confidence": 0.9945
+                },
+                {
+                    "text": "Petabyte-Scale",
+                    "confidence": 0.9547
+                },
+                {
+                    "text": "Automated setup; operation; and",
+                    "confidence": 0.8006
+                },
+                {
+                    "text": "Emiciently store",
+                    "confidence": 0.8313
+                },
+                {
+                    "text": "analyze data",
+                    "confidence": 0.6106
+                },
+                {
+                    "text": "Redshift?",
+                    "confidence": 0.9997
+                },
+                {
+                    "text": "scallng of a dota warehouse",
+                    "confidence": 0.5549
+                },
+                {
+                    "text": "from gigabytes to petabytes:",
+                    "confidence": 0.5252
+                },
+                {
+                    "text": "A fully managed, petabyte scale cloud data",
+                    "confidence": 0.6322
+                },
+                {
+                    "text": "OLAP Optimized",
+                    "confidence": 0.9931
+                },
+                {
+                    "text": "Fast SQL Queries",
+                    "confidence": 0.831
+                },
+                {
+                    "text": "Warehouse service by Amnazon Web Services",
+                    "confidence": 0.5151
+                },
+                {
+                    "text": "Desioned torcomplcx qucries and",
+                    "confidence": 0.2291
+                },
+                {
+                    "text": "Uses columnar storageand MPP for",
+                    "confidence": 0.2603
+                },
+                {
+                    "text": "(AWS):",
+                    "confidence": 0.2509
+                },
+                {
+                    "text": "aggregations on",
+                    "confidence": 0.5363
+                },
+                {
+                    "text": "dotasets",
+                    "confidence": 0.5313
+                },
+                {
+                    "text": "high-performance analytics",
+                    "confidence": 0.3723
+                },
+                {
+                    "text": "Syed Minhal Husain Rizvi",
+                    "confidence": 0.4616
+                },
+                {
+                    "text": "Z3bai10115",
+                    "confidence": 0.648
+                },
+                {
+                    "text": "and",
+                    "confidence": 0.1517
+                },
+                {
+                    "text": "Inrpe",
+                    "confidence": 0.1508
+                },
+                {
+                    "text": "What is Amazon",
+                    "confidence": 0.805
+                },
+                {
+                    "text": "~Fully Managed",
+                    "confidence": 0.6407
+                },
+                {
+                    "text": "Petabyte-Scale",
+                    "confidence": 0.7276
+                },
+                {
+                    "text": "Automated setup; operation; and",
+                    "confidence": 0.7454
+                },
+                {
+                    "text": "Efficiently store",
+                    "confidence": 0.6241
+                },
+                {
+                    "text": "amalvze data",
+                    "confidence": 0.5167
+                },
+                {
+                    "text": "Redshift?",
+                    "confidence": 1.0
+                },
+                {
+                    "text": "scaling of",
+                    "confidence": 0.9956
+                },
+                {
+                    "text": "data warehouse:",
+                    "confidence": 0.4119
+                },
+                {
+                    "text": "from gigabytes t0 petabytes",
+                    "confidence": 0.4698
+                },
+                {
+                    "text": "managed, petabyte-scale cloud data",
+                    "confidence": 0.8187
+                },
+                {
+                    "text": "OLAP Optimized",
+                    "confidence": 0.997
+                },
+                {
+                    "text": "Fast SQL Queries",
+                    "confidence": 0.9226
+                },
+                {
+                    "text": "warehouse service by Amazon Web Services",
+                    "confidence": 0.8119
+                },
+                {
+                    "text": "Designed for complex queries and",
+                    "confidence": 0.7918
+                },
+                {
+                    "text": "Uses columnar storage and MPP for",
+                    "confidence": 0.8041
+                },
+                {
+                    "text": "(AWSI:",
+                    "confidence": 0.2605
+                },
+                {
+                    "text": "aggregations on large dutasets:",
+                    "confidence": 0.7025
+                },
+                {
+                    "text": "high-peronance anattics",
+                    "confidence": 0.2811
+                },
+                {
+                    "text": "Syed Minhal Husain Rizvi",
+                    "confidence": 0.7221
+                },
+                {
+                    "text": "23bai10115",
+                    "confidence": 0.8215
+                },
+                {
+                    "text": "lnd",
+                    "confidence": 0.2528
+                },
+                {
+                    "text": "Afully",
+                    "confidence": 0.2157
+                },
+                {
+                    "text": "Core Architecture: A Closer Look",
+                    "confidence": 0.7725
+                },
+                {
+                    "text": "Redshift $ architecture is designed for massive parallel proceaing (MPP)",
+                    "confidence": 0.4323
+                },
+                {
+                    "text": "Leader Node",
+                    "confidence": 0.9762
+                },
+                {
+                    "text": "Compute Nodes",
+                    "confidence": 0.9999
+                },
+                {
+                    "text": "Data Distribution",
+                    "confidence": 0.9815
+                },
+                {
+                    "text": "Manages client connections;",
+                    "confidence": 0.5402
+                },
+                {
+                    "text": "Stora duta and Eecule",
+                    "confidence": 0.0542
+                },
+                {
+                    "text": "Dala",
+                    "confidence": 0.5853
+                },
+                {
+                    "text": "disuttuted across",
+                    "confidence": 0.4841
+                },
+                {
+                    "text": "parses queriesand",
+                    "confidence": 0.7814
+                },
+                {
+                    "text": "queries in parallel Eacn",
+                    "confidence": 0.5037
+                },
+                {
+                    "text": "sices:",
+                    "confidence": 0.2478
+                },
+                {
+                    "text": "enabling parallel",
+                    "confidence": 0.9824
+                },
+                {
+                    "text": "courdhuler eenution",
+                    "confidence": 0.0232
+                },
+                {
+                    "text": "node has multiple slices:",
+                    "confidence": 0.6559
+                },
+                {
+                    "text": "processing for fast query",
+                    "confidence": 0.7484
+                },
+                {
+                    "text": "parfonnance",
+                    "confidence": 0.247
+                },
+                {
+                    "text": "Sved Minhal Husain Rizvi",
+                    "confidence": 0.9595
+                },
+                {
+                    "text": "23bai10115",
+                    "confidence": 0.624
+                },
+                {
+                    "text": "Core Architecture: A Closer Look",
+                    "confidence": 0.9992
+                },
+                {
+                    "text": "Redshift s architecture is designed for massive parallel processing (MPP)",
+                    "confidence": 0.8489
+                },
+                {
+                    "text": "Leader Node",
+                    "confidence": 0.9379
+                },
+                {
+                    "text": "Compute Nodes",
+                    "confidence": 0.9999
+                },
+                {
+                    "text": "Data Distribution",
+                    "confidence": 0.9928
+                },
+                {
+                    "text": "Manages client connections,",
+                    "confidence": 0.7349
+                },
+                {
+                    "text": "Store data and execute",
+                    "confidence": 0.539
+                },
+                {
+                    "text": "Data is disbibuted across",
+                    "confidence": 0.4186
+                },
+                {
+                    "text": "parses queries and",
+                    "confidence": 0.425
+                },
+                {
+                    "text": "queres in",
+                    "confidence": 0.7698
+                },
+                {
+                    "text": "parallel Each",
+                    "confidence": 0.9453
+                },
+                {
+                    "text": "slices, enabling parallel",
+                    "confidence": 0.693
+                },
+                {
+                    "text": "cocrdoies ereqution",
+                    "confidence": 0.017
+                },
+                {
+                    "text": "node has multiple slices:",
+                    "confidence": 0.9419
+                },
+                {
+                    "text": "precessing for fast query",
+                    "confidence": 0.4119
+                },
+                {
+                    "text": "perfonnance",
+                    "confidence": 0.5778
+                },
+                {
+                    "text": "Syed Minhal Husain Rizvi",
+                    "confidence": 0.6309
+                },
+                {
+                    "text": "Z3bal10115",
+                    "confidence": 0.6275
+                }
+            ],
+            "captions": [
+                "the amazon fire tv screen showing the amazon fire tv",
+                "a screen showing the different features of the amazon store",
+                "the core core core is displayed on a screen",
+                "the core architecture and core core"
+            ]
+        },
+        {
+            "chunk_id": 3,
+            "scene": 2,
+            "start": 6.0,
+            "end": 8.0,
+            "text": "Core architecture at closer look.",
+            "ocr": [
+                {
+                    "text": "Core Architecture: A Closer Look",
+                    "confidence": 0.7073
+                },
+                {
+                    "text": "Redshift's architecture is designed for massive parallel processing (MPP)",
+                    "confidence": 0.7043
+                },
+                {
+                    "text": "Leader Node",
+                    "confidence": 0.6821
+                },
+                {
+                    "text": "Compute Nodes",
+                    "confidence": 0.8438
+                },
+                {
+                    "text": "Data Distribution",
+                    "confidence": 0.9991
+                },
+                {
+                    "text": "Manages client connections;",
+                    "confidence": 0.4881
+                },
+                {
+                    "text": "Store data and execute",
+                    "confidence": 0.9697
+                },
+                {
+                    "text": "Data i$ distnbuted across",
+                    "confidence": 0.4105
+                },
+                {
+                    "text": "pwrtos qubries;und",
+                    "confidence": 0.0766
+                },
+                {
+                    "text": "querics In",
+                    "confidence": 0.7292
+                },
+                {
+                    "text": "parallcl Each",
+                    "confidence": 0.6899
+                },
+                {
+                    "text": "sliccs",
+                    "confidence": 0.1379
+                },
+                {
+                    "text": "enabling parallel",
+                    "confidence": 0.4603
+                },
+                {
+                    "text": "codtulbic @recution",
+                    "confidence": 0.118
+                },
+                {
+                    "text": "node has multplo slices",
+                    "confidence": 0.651
+                },
+                {
+                    "text": "processing for fast query",
+                    "confidence": 0.9477
+                },
+                {
+                    "text": "perforance",
+                    "confidence": 0.2407
+                },
+                {
+                    "text": "Sved Minhal Husain Rizvi",
+                    "confidence": 0.852
+                },
+                {
+                    "text": "23bal10115",
+                    "confidence": 0.664
+                },
+                {
+                    "text": "Core Architecture: A Closer Look",
+                    "confidence": 0.874
+                },
+                {
+                    "text": "Redshift $ architecture is designed for massive parallel processing (MPP}.",
+                    "confidence": 0.5822
+                },
+                {
+                    "text": "Leader Node",
+                    "confidence": 0.9997
+                },
+                {
+                    "text": "Compute Nodes",
+                    "confidence": 0.7632
+                },
+                {
+                    "text": "Data Distribution",
+                    "confidence": 0.9939
+                },
+                {
+                    "text": "Manages client connections,",
+                    "confidence": 0.7246
+                },
+                {
+                    "text": "Store data",
+                    "confidence": 0.9907
+                },
+                {
+                    "text": "execute",
+                    "confidence": 0.999
+                },
+                {
+                    "text": "Data i$ distrbuted Joross",
+                    "confidence": 0.1519
+                },
+                {
+                    "text": "parses queries and",
+                    "confidence": 0.7387
+                },
+                {
+                    "text": "queries in parallel Each",
+                    "confidence": 0.8879
+                },
+                {
+                    "text": "slices; enabling parallel",
+                    "confidence": 0.6897
+                },
+                {
+                    "text": "coordinates @ccution",
+                    "confidence": 0.5919
+                },
+                {
+                    "text": "node has multiple slices:",
+                    "confidence": 0.5346
+                },
+                {
+                    "text": "processing for fast query",
+                    "confidence": 0.9073
+                },
+                {
+                    "text": "pertonnance",
+                    "confidence": 0.7532
+                },
+                {
+                    "text": "Sved Minhal Husain Rizvi",
+                    "confidence": 0.8444
+                },
+                {
+                    "text": "23bai10115",
+                    "confidence": 0.4893
+                },
+                {
+                    "text": "and",
+                    "confidence": 0.9989
+                },
+                {
+                    "text": "Core Architecture: A Closer Look",
+                    "confidence": 0.8447
+                },
+                {
+                    "text": "Redshift's architecture is designed for massive parallel processing (MPP).",
+                    "confidence": 0.5732
+                },
+                {
+                    "text": "Leader Node",
+                    "confidence": 0.9914
+                },
+                {
+                    "text": "Compute Nodes",
+                    "confidence": 0.9994
+                },
+                {
+                    "text": "Data Distribution",
+                    "confidence": 0.7515
+                },
+                {
+                    "text": "Manages client connections,",
+                    "confidence": 0.5965
+                },
+                {
+                    "text": "Store data and execute",
+                    "confidence": 0.5478
+                },
+                {
+                    "text": "Dala is distnbuted across",
+                    "confidence": 0.4621
+                },
+                {
+                    "text": "parses Quariegand",
+                    "confidence": 0.0944
+                },
+                {
+                    "text": "queres",
+                    "confidence": 0.7773
+                },
+                {
+                    "text": "pnrallel Each",
+                    "confidence": 0.5292
+                },
+                {
+                    "text": "slices; enabling parallel",
+                    "confidence": 0.6966
+                },
+                {
+                    "text": "cocrtates cution",
+                    "confidence": 0.0749
+                },
+                {
+                    "text": "node has multiple slices:",
+                    "confidence": 0.4904
+                },
+                {
+                    "text": "processing for fast query",
+                    "confidence": 0.7103
+                },
+                {
+                    "text": "perfonnance",
+                    "confidence": 0.5737
+                },
+                {
+                    "text": "Sved Minhal Husain Rixvi",
+                    "confidence": 0.5966
+                },
+                {
+                    "text": "Z3bal10115",
+                    "confidence": 0.6349
+                },
+                {
+                    "text": "02",
+                    "confidence": 0.9789
+                },
+                {
+                    "text": "Features",
+                    "confidence": 1.0
+                },
+                {
+                    "text": "Key",
+                    "confidence": 0.9998
+                }
+            ],
+            "captions": [
+                "a screen showing the features of the cloud",
+                "a screen showing the different features of the cloud",
+                "the core architecture closer look",
+                "the key features on the new ipad"
+            ]
+        },
+        {
+            "chunk_id": 4,
+            "scene": 3,
+            "start": 8.0,
+            "end": 10.0,
+            "text": "Key features.",
+            "ocr": [
+                {
+                    "text": "02",
+                    "confidence": 1.0
+                },
+                {
+                    "text": "Features",
+                    "confidence": 1.0
+                },
+                {
+                    "text": "Key",
+                    "confidence": 0.9995
+                },
+                {
+                    "text": "Columnar Storage & Advanced Compression",
+                    "confidence": 0.8744
+                },
+                {
+                    "text": "Row-Oriented Storage",
+                    "confidence": 0.9201
+                },
+                {
+                    "text": "Columnar Storage",
+                    "confidence": 0.8818
+                },
+                {
+                    "text": "Trodltior-{ anlabesta Stort dhtarow by TOw; which Is",
+                    "confidence": 0.0038
+                },
+                {
+                    "text": "Redshift stores data column bY column. This means queries",
+                    "confidence": 0.4879
+                },
+                {
+                    "text": "intitdent Ier erah ticel cucrias that oltan reed only",
+                    "confidence": 0.029
+                },
+                {
+                    "text": "ow",
+                    "confidence": 0.2805
+                },
+                {
+                    "text": "only read the necessary columns, drastically reducing I/O.",
+                    "confidence": 0.5256
+                },
+                {
+                    "text": "colunins",
+                    "confidence": 0.2593
+                },
+                {
+                    "text": "nd",
+                    "confidence": 0.0423
+                },
+                {
+                    "text": "9al",
+                    "confidence": 0.0591
+                },
+                {
+                    "text": "R",
+                    "confidence": 0.0712
+                },
+                {
+                    "text": "c4b",
+                    "confidence": 0.13
+                },
+                {
+                    "text": "F",
+                    "confidence": 0.6568
+                },
+                {
+                    "text": "cc",
+                    "confidence": 0.7188
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.9275
+                },
+                {
+                    "text": "CAd",
+                    "confidence": 0.4856
+                },
+                {
+                    "text": "CAa",
+                    "confidence": 0.0103
+                },
+                {
+                    "text": "C~",
+                    "confidence": 0.0146
+                },
+                {
+                    "text": "26",
+                    "confidence": 0.2452
+                },
+                {
+                    "text": "Co,a",
+                    "confidence": 0.0042
+                },
+                {
+                    "text": "Czca",
+                    "confidence": 0.0205
+                },
+                {
+                    "text": "32c0",
+                    "confidence": 0.1591
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.491
+                },
+                {
+                    "text": "cc",
+                    "confidence": 0.6642
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.5232
+                },
+                {
+                    "text": "Cad",
+                    "confidence": 0.4535
+                },
+                {
+                    "text": "Redshift also applies compression algorithms specific to each coluin $ data txpe, achleving 2-4x compression to save",
+                    "confidence": 0.5228
+                },
+                {
+                    "text": "storage and improve speed:",
+                    "confidence": 0.782
+                },
+                {
+                    "text": "Syed Minhol Husain Rizvi",
+                    "confidence": 0.2926
+                },
+                {
+                    "text": "Zabai10115",
+                    "confidence": 0.4579
+                },
+                {
+                    "text": "Columnar Storage & Advanced Compression",
+                    "confidence": 0.9969
+                },
+                {
+                    "text": "Row-Oriented Storage",
+                    "confidence": 0.8411
+                },
+                {
+                    "text": "Columnar Storage",
+                    "confidence": 1.0
+                },
+                {
+                    "text": "Traditional databases store data row Dy TOWI, which is",
+                    "confidence": 0.5409
+                },
+                {
+                    "text": "Redshift stores data column by column. This means queries",
+                    "confidence": 0.9089
+                },
+                {
+                    "text": "inelficient Ior anolyucal queries uiat olten read only @ tew",
+                    "confidence": 0.1591
+                },
+                {
+                    "text": "only read the necessary columns, drastically reducing V/O.",
+                    "confidence": 0.402
+                },
+                {
+                    "text": "columns",
+                    "confidence": 0.7425
+                },
+                {
+                    "text": "Ronla @ol",
+                    "confidence": 0.1601
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.8399
+                },
+                {
+                    "text": "cdb",
+                    "confidence": 0.2333
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.2826
+                },
+                {
+                    "text": "Colc",
+                    "confidence": 0.1522
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.9921
+                },
+                {
+                    "text": "eold",
+                    "confidence": 0.1009
+                },
+                {
+                    "text": "Cluia",
+                    "confidence": 0.0626
+                },
+                {
+                    "text": "GcuM",
+                    "confidence": 0.0332
+                },
+                {
+                    "text": "cal C",
+                    "confidence": 0.0781
+                },
+                {
+                    "text": "Gad",
+                    "confidence": 0.0618
+                },
+                {
+                    "text": "Row 2 Cola",
+                    "confidence": 0.1736
+                },
+                {
+                    "text": "Row 2 Cdd",
+                    "confidence": 0.1966
+                },
+                {
+                    "text": "Row2 Caic",
+                    "confidence": 0.7021
+                },
+                {
+                    "text": "Row 2 Coid",
+                    "confidence": 0.5854
+                },
+                {
+                    "text": "Redshift also applies compression algorithms specific to each column s data type, achieving 2-4x compression to save",
+                    "confidence": 0.6405
+                },
+                {
+                    "text": "storage and Improve speed:",
+                    "confidence": 0.6034
+                },
+                {
+                    "text": "Sved Minhal Husaln Ritvi",
+                    "confidence": 0.4128
+                },
+                {
+                    "text": "23b3i10115",
+                    "confidence": 0.855
+                },
+                {
+                    "text": "Columnar Storage & Advanced Compression",
+                    "confidence": 0.8407
+                },
+                {
+                    "text": "Row-Oriented Storage",
+                    "confidence": 0.7486
+                },
+                {
+                    "text": "Columnar Storage",
+                    "confidence": 0.9572
+                },
+                {
+                    "text": "Tradibonal databast s stord data row Dy rOw; which is",
+                    "confidence": 0.1437
+                },
+                {
+                    "text": "Redshift stores data column Dy column_ This means queries",
+                    "confidence": 0.6399
+                },
+                {
+                    "text": "inelliciont Ior Jnattical queries tnat olten read only",
+                    "confidence": 0.0654
+                },
+                {
+                    "text": "few",
+                    "confidence": 0.604
+                },
+                {
+                    "text": "only read the necessary columns; drastically reducing IIO.",
+                    "confidence": 0.464
+                },
+                {
+                    "text": "columns",
+                    "confidence": 0.9803
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.4015
+                },
+                {
+                    "text": "Gela",
+                    "confidence": 0.1279
+                },
+                {
+                    "text": "Row 1, C4ib",
+                    "confidence": 0.2861
+                },
+                {
+                    "text": "Rot",
+                    "confidence": 0.1983
+                },
+                {
+                    "text": "Gal\u20ac",
+                    "confidence": 0.1071
+                },
+                {
+                    "text": "Row 1,",
+                    "confidence": 0.9408
+                },
+                {
+                    "text": "0 L",
+                    "confidence": 0.0221
+                },
+                {
+                    "text": "C31n8",
+                    "confidence": 0.01
+                },
+                {
+                    "text": "Ca !uC",
+                    "confidence": 0.0328
+                },
+                {
+                    "text": "Ctd",
+                    "confidence": 0.075
+                },
+                {
+                    "text": "Row 2 C4a",
+                    "confidence": 0.1999
+                },
+                {
+                    "text": "Row 2 C4b",
+                    "confidence": 0.3786
+                },
+                {
+                    "text": "Rot",
+                    "confidence": 0.1215
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.9603
+                },
+                {
+                    "text": "Oold",
+                    "confidence": 0.188
+                },
+                {
+                    "text": "Redshift also applies compression algorithms specific to each column $ data type; achieving 2-4x compression to save",
+                    "confidence": 0.7487
+                },
+                {
+                    "text": "storage and improve speed",
+                    "confidence": 0.9485
+                },
+                {
+                    "text": "Syed Minhal Husain Rizvi",
+                    "confidence": 0.7665
+                },
+                {
+                    "text": "23bai10115",
+                    "confidence": 0.9687
+                },
+                {
+                    "text": "CelD",
+                    "confidence": 0.1908
+                },
+                {
+                    "text": "col \u20ac",
+                    "confidence": 0.1569
+                }
+            ],
+            "captions": [
+                "the key features on the new ipad",
+                "a screen showing the configuration of the computer",
+                "a screen showing the configuration of the computer",
+                "a screen showing the configuration of the storage"
+            ]
+        },
+        {
+            "chunk_id": 5,
+            "scene": 4,
+            "start": 10.0,
+            "end": 12.0,
+            "text": "Hi, my name is",
+            "ocr": [
+                {
+                    "text": "Columnar Storage & Advanced Compression",
+                    "confidence": 0.9128
+                },
+                {
+                    "text": "Row-Oriented Storage",
+                    "confidence": 0.9273
+                },
+                {
+                    "text": "Columnar Storage",
+                    "confidence": 0.9407
+                },
+                {
+                    "text": "Traditional databeses store date tow DY rOW; which is",
+                    "confidence": 0.0814
+                },
+                {
+                    "text": "Redshift stores data column by column-This means queries",
+                    "confidence": 0.526
+                },
+                {
+                    "text": "inelficient Ioranalytical queres that Often read only",
+                    "confidence": 0.1411
+                },
+                {
+                    "text": "tow",
+                    "confidence": 0.1018
+                },
+                {
+                    "text": "only read the necessary columns; drastically reducing IO_",
+                    "confidence": 0.6591
+                },
+                {
+                    "text": "columns",
+                    "confidence": 0.9214
+                },
+                {
+                    "text": "Rowi",
+                    "confidence": 0.102
+                },
+                {
+                    "text": "Cola",
+                    "confidence": 0.3184
+                },
+                {
+                    "text": "Rowi",
+                    "confidence": 0.2613
+                },
+                {
+                    "text": "C4B",
+                    "confidence": 0.1171
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.661
+                },
+                {
+                    "text": "col \u20ac",
+                    "confidence": 0.1592
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.89
+                },
+                {
+                    "text": "Cold",
+                    "confidence": 0.5669
+                },
+                {
+                    "text": "Caume",
+                    "confidence": 0.1209
+                },
+                {
+                    "text": "Columnn 0",
+                    "confidence": 0.1257
+                },
+                {
+                    "text": "CaunC",
+                    "confidence": 0.1026
+                },
+                {
+                    "text": "cd",
+                    "confidence": 0.2493
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.957
+                },
+                {
+                    "text": "Cola",
+                    "confidence": 0.3908
+                },
+                {
+                    "text": "Rowa",
+                    "confidence": 0.2142
+                },
+                {
+                    "text": "ColB",
+                    "confidence": 0.4492
+                },
+                {
+                    "text": "Row 2 Col \u20ac",
+                    "confidence": 0.3107
+                },
+                {
+                    "text": "Row 2,Coid",
+                    "confidence": 0.6237
+                },
+                {
+                    "text": "Redshift also applies compression algorithms speciflc to each column $ data type, achieving 2-4x compression to save",
+                    "confidence": 0.6129
+                },
+                {
+                    "text": "storage",
+                    "confidence": 0.9228
+                },
+                {
+                    "text": "improve speed",
+                    "confidence": 0.9979
+                },
+                {
+                    "text": "Sved Minhal Husain Rizvi",
+                    "confidence": 0.8384
+                },
+                {
+                    "text": "23bai10115",
+                    "confidence": 0.9891
+                },
+                {
+                    "text": "and",
+                    "confidence": 0.9992
+                },
+                {
+                    "text": "Columnar Storage & Advanced Compression",
+                    "confidence": 0.8062
+                },
+                {
+                    "text": "Row-Oriented Storage",
+                    "confidence": 0.9537
+                },
+                {
+                    "text": "Columnar Storage",
+                    "confidence": 0.567
+                },
+                {
+                    "text": "Traditional databases store data row by rOw; which Is",
+                    "confidence": 0.4401
+                },
+                {
+                    "text": "Redshift stores data column bv column. This means queries",
+                    "confidence": 0.8339
+                },
+                {
+                    "text": "inelficlent for anatytcal queres that often rcad onh",
+                    "confidence": 0.077
+                },
+                {
+                    "text": "lew",
+                    "confidence": 0.2421
+                },
+                {
+                    "text": "only read the necessaly columns; drastically",
+                    "confidence": 0.6098
+                },
+                {
+                    "text": "reducing I/O.",
+                    "confidence": 0.767
+                },
+                {
+                    "text": "colnns",
+                    "confidence": 0.5861
+                },
+                {
+                    "text": "Rica",
+                    "confidence": 0.2422
+                },
+                {
+                    "text": "Raw",
+                    "confidence": 0.1198
+                },
+                {
+                    "text": "Cab",
+                    "confidence": 0.2755
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.9251
+                },
+                {
+                    "text": "Cac",
+                    "confidence": 0.3711
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.7622
+                },
+                {
+                    "text": "64d",
+                    "confidence": 0.3389
+                },
+                {
+                    "text": "G",
+                    "confidence": 0.1457
+                },
+                {
+                    "text": "c[",
+                    "confidence": 0.1295
+                },
+                {
+                    "text": "Ccnu \u20ac",
+                    "confidence": 0.1652
+                },
+                {
+                    "text": "0.Lud",
+                    "confidence": 0.038
+                },
+                {
+                    "text": "Rowz Cota",
+                    "confidence": 0.1333
+                },
+                {
+                    "text": "Row2C48",
+                    "confidence": 0.1797
+                },
+                {
+                    "text": "Faw",
+                    "confidence": 0.1431
+                },
+                {
+                    "text": "Calc",
+                    "confidence": 0.3177
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.6503
+                },
+                {
+                    "text": "Col@",
+                    "confidence": 0.2012
+                },
+                {
+                    "text": "Redshift also applies compression algorithms specific to each column's data type, achieving 2-4x compression to save",
+                    "confidence": 0.6906
+                },
+                {
+                    "text": "Storage and improve speed",
+                    "confidence": 0.9094
+                },
+                {
+                    "text": "Syed Minhal Husain Rizvi",
+                    "confidence": 0.8567
+                },
+                {
+                    "text": "23bai10115",
+                    "confidence": 0.7879
+                },
+                {
+                    "text": "Columnar",
+                    "confidence": 0.9999
+                },
+                {
+                    "text": "Storage & Advanced Compression",
+                    "confidence": 0.5425
+                },
+                {
+                    "text": "Row-Oriented Storage",
+                    "confidence": 0.9535
+                },
+                {
+                    "text": "Columnar Storage",
+                    "confidence": 0.9708
+                },
+                {
+                    "text": "Traditional databases store data row by row; which is",
+                    "confidence": 0.5217
+                },
+                {
+                    "text": "inefficient for analytical queries that often read only",
+                    "confidence": 0.8026
+                },
+                {
+                    "text": "ew",
+                    "confidence": 0.9424
+                },
+                {
+                    "text": "Redshift stores data column by column: This means queries",
+                    "confidence": 0.7316
+                },
+                {
+                    "text": "columns",
+                    "confidence": 0.9774
+                },
+                {
+                    "text": "only read the necessary columns; drastically reducing I/O.",
+                    "confidence": 0.7421
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.8285
+                },
+                {
+                    "text": "Cal a",
+                    "confidence": 0.1886
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.4914
+                },
+                {
+                    "text": "Golb",
+                    "confidence": 0.2908
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.9651
+                },
+                {
+                    "text": "Culc",
+                    "confidence": 0.3422
+                },
+                {
+                    "text": "Row Acel D",
+                    "confidence": 0.2017
+                },
+                {
+                    "text": "Ccvun",
+                    "confidence": 0.0663
+                },
+                {
+                    "text": "Ceunn",
+                    "confidence": 0.1243
+                },
+                {
+                    "text": "Comn",
+                    "confidence": 0.4537
+                },
+                {
+                    "text": "CLun D",
+                    "confidence": 0.2021
+                },
+                {
+                    "text": "ea",
+                    "confidence": 0.0291
+                },
+                {
+                    "text": "Gola",
+                    "confidence": 0.1317
+                },
+                {
+                    "text": "Row 2 C4b",
+                    "confidence": 0.5183
+                },
+                {
+                    "text": "Row2 Calc",
+                    "confidence": 0.4842
+                },
+                {
+                    "text": "Row2 Cad",
+                    "confidence": 0.6578
+                },
+                {
+                    "text": "Redshift also",
+                    "confidence": 0.9576
+                },
+                {
+                    "text": "applies compression algorithms specific to each column $ data type, achieving 2-4x compression t0 save",
+                    "confidence": 0.7212
+                },
+                {
+                    "text": "storage and Improve speed",
+                    "confidence": 0.9039
+                },
+                {
+                    "text": "Sved Minhal Husain Rizvi",
+                    "confidence": 0.6866
+                },
+                {
+                    "text": "2360010115",
+                    "confidence": 0.3438
+                },
+                {
+                    "text": "Columnar Storage & Advanced Compression",
+                    "confidence": 0.9639
+                },
+                {
+                    "text": "Row-Oriented Storage",
+                    "confidence": 0.8025
+                },
+                {
+                    "text": "Columnar Storage",
+                    "confidence": 0.9808
+                },
+                {
+                    "text": "Traditional databases store data row by rOw; which is",
+                    "confidence": 0.6303
+                },
+                {
+                    "text": "inefficient for analytical queries that often read only",
+                    "confidence": 0.7128
+                },
+                {
+                    "text": "tew",
+                    "confidence": 0.4904
+                },
+                {
+                    "text": "Redshift stores data column by column: This means queries",
+                    "confidence": 0.4743
+                },
+                {
+                    "text": "columns.",
+                    "confidence": 0.676
+                },
+                {
+                    "text": "only read the necessary columns drastically",
+                    "confidence": 0.8524
+                },
+                {
+                    "text": "'reducing IIO.",
+                    "confidence": 0.5607
+                },
+                {
+                    "text": "Row [  Cola",
+                    "confidence": 0.1728
+                },
+                {
+                    "text": "Rowt",
+                    "confidence": 0.2085
+                },
+                {
+                    "text": "Golb",
+                    "confidence": 0.2991
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.9659
+                },
+                {
+                    "text": "celc",
+                    "confidence": 0.135
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.983
+                },
+                {
+                    "text": "col D",
+                    "confidence": 0.2605
+                },
+                {
+                    "text": "CuA",
+                    "confidence": 0.2235
+                },
+                {
+                    "text": "colmn 8",
+                    "confidence": 0.0429
+                },
+                {
+                    "text": "Coi ) \u20ac",
+                    "confidence": 0.0405
+                },
+                {
+                    "text": "Cd",
+                    "confidence": 0.4895
+                },
+                {
+                    "text": "Row 2 Cola",
+                    "confidence": 0.7458
+                },
+                {
+                    "text": "RowzGdb",
+                    "confidence": 0.1108
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.7355
+                },
+                {
+                    "text": "Col \u20ac",
+                    "confidence": 0.1469
+                },
+                {
+                    "text": "Rowe",
+                    "confidence": 0.2695
+                },
+                {
+                    "text": "(Gol D",
+                    "confidence": 0.129
+                },
+                {
+                    "text": "Redshift also applies compression algorithms specific to each column $ data type, achieving 2-4x compression to save",
+                    "confidence": 0.7255
+                },
+                {
+                    "text": "storage and Improve speed:",
+                    "confidence": 0.7245
+                },
+                {
+                    "text": "Syed Minhal Husain Rizvi",
+                    "confidence": 0.9942
+                },
+                {
+                    "text": "23b3i10115",
+                    "confidence": 0.4987
+                }
+            ],
+            "captions": [
+                "a screen showing the settings and settings of the computer",
+                "a screen showing the different stages of the computer",
+                "a screen showing the settings and settings of a computer",
+                "a screen showing the configuration of a computer"
+            ]
+        },
+        {
+            "chunk_id": 6,
+            "scene": 4,
+            "start": 12.0,
+            "end": 14.0,
+            "text": "Silvia Nirmal.",
+            "ocr": [
+                {
+                    "text": "Columnar Storage & Advanced Compression",
+                    "confidence": 0.8582
+                },
+                {
+                    "text": "Row-Oriented Storage",
+                    "confidence": 0.9815
+                },
+                {
+                    "text": "Columnar Storage",
+                    "confidence": 0.955
+                },
+                {
+                    "text": "Traditional databases store data row Dy rOw, which is",
+                    "confidence": 0.4186
+                },
+                {
+                    "text": "inefficient for analytical queries that olten read only",
+                    "confidence": 0.6886
+                },
+                {
+                    "text": "Tew",
+                    "confidence": 0.2152
+                },
+                {
+                    "text": "Redshift stores data column by column",
+                    "confidence": 0.5526
+                },
+                {
+                    "text": "means queries",
+                    "confidence": 0.5424
+                },
+                {
+                    "text": "columns",
+                    "confidence": 0.8747
+                },
+                {
+                    "text": "Onily Tead",
+                    "confidence": 0.2636
+                },
+                {
+                    "text": "necesbary colurns; drastically reducing IO.",
+                    "confidence": 0.3975
+                },
+                {
+                    "text": "Roiica",
+                    "confidence": 0.0721
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.6821
+                },
+                {
+                    "text": "CNB",
+                    "confidence": 0.1193
+                },
+                {
+                    "text": "Row",
+                    "confidence": 0.9562
+                },
+                {
+                    "text": "Cac",
+                    "confidence": 0.4358
+                },
+                {
+                    "text": "Row1 Cud",
+                    "confidence": 0.2984
+                },
+                {
+                    "text": "Catun",
+                    "confidence": 0.0251
+                },
+                {
+                    "text": "Celum \u20ac",
+                    "confidence": 0.1229
+                },
+                {
+                    "text": "Caun",
+                    "confidence": 0.0112
+                },
+                {
+                    "text": "Row2ca",
+                    "confidence": 0.1206
+                },
+                {
+                    "text": "Roa",
+                    "confidence": 0.1424
+                },
+                {
+                    "text": "C4B",
+                    "confidence": 0.1297
+                },
+                {
+                    "text": "Rowzc4c",
+                    "confidence": 0.3322
+                },
+                {
+                    "text": "Row2 Cud",
+                    "confidence": 0.3248
+                },
+                {
+                    "text": "Redshift also applies compression algorithms specific to each column'$ dala type, achieving 2-4x compression to save",
+                    "confidence": 0.6014
+                },
+                {
+                    "text": "storage and Improve speed",
+                    "confidence": 0.7554
+                },
+                {
+                    "text": "Sved Minhal Husain Rizvi",
+                    "confidence": 0.802
+                },
+                {
+                    "text": "Z3ban10115",
+                    "confidence": 0.277
+                },
+                {
+                    "text": "Thts",
+                    "confidence": 0.1429
+                },
+                {
+                    "text": "thhe",
+                    "confidence": 0.5141
+                },
+                {
+                    "text": "C",
+                    "confidence": 0.2152
+                },
+                {
+                    "text": "Scalability & Performance",
+                    "confidence": 0.9754
+                },
+                {
+                    "text": "Redshift scales seamlessly with your data and delivers consistently fast query performance",
+                    "confidence": 0.8299
+                },
+                {
+                    "text": "Resize Clusters",
+                    "confidence": 0.9834
+                },
+                {
+                    "text": "Add Nodes",
+                    "confidence": 0.9687
+                },
+                {
+                    "text": "Maintein Perlonance",
+                    "confidence": 0.7502
+                },
+                {
+                    "text": "Scale Up or down by changing the",
+                    "confidence": 0.6724
+                },
+                {
+                    "text": "Increase capaclty by pddlng mor",
+                    "confidence": 0.5473
+                },
+                {
+                    "text": "The Nep architecture ensures",
+                    "confidence": 0.1171
+                },
+                {
+                    "text": "node type leg_from dr2rguto",
+                    "confidence": 0.4352
+                },
+                {
+                    "text": "nodia t0 YouI Iistnn Fluster (ot",
+                    "confidence": 0.0217
+                },
+                {
+                    "text": "that perfonance",
+                    "confidence": 0.8624
+                },
+                {
+                    "text": "scales as Vour",
+                    "confidence": 0.598
+                },
+                {
+                    "text": "Dia",
+                    "confidence": 0.009
+                },
+                {
+                    "text": "Linon penonmanco Qalns.",
+                    "confidence": 0.0723
+                },
+                {
+                    "text": "data",
+                    "confidence": 0.8721
+                },
+                {
+                    "text": "gror",
+                    "confidence": 0.0569
+                },
+                {
+                    "text": "mintinal",
+                    "confidence": 0.465
+                },
+                {
+                    "text": "downbm",
+                    "confidence": 0.2406
+                },
+                {
+                    "text": "Syed Minhal Husain Rizvi",
+                    "confidence": 0.4249
+                },
+                {
+                    "text": "Z3bai10115",
+                    "confidence": 0.6306
+                },
+                {
+                    "text": "Scalability & Performance",
+                    "confidence": 0.9936
+                },
+                {
+                    "text": "Redshift scales seamlessly with your data and delivers consistently fast query performance:",
+                    "confidence": 0.6471
+                },
+                {
+                    "text": "Resize Clusters",
+                    "confidence": 0.9378
+                },
+                {
+                    "text": "Add Nodes",
+                    "confidence": 0.9857
+                },
+                {
+                    "text": "Maintain Perlormance",
+                    "confidence": 0.5107
+                },
+                {
+                    "text": "Scale up or down by changing the",
+                    "confidence": 0.5263
+                },
+                {
+                    "text": "Increasu capacity by adding more",
+                    "confidence": 0.822
+                },
+                {
+                    "text": "The MPP architecture ensures",
+                    "confidence": 0.6555
+                },
+                {
+                    "text": "node type",
+                    "confidence": 0.8499
+                },
+                {
+                    "text": "Irom",
+                    "confidence": 0.742
+                },
+                {
+                    "text": "nodes [0 Vour Oxisuinp cluster Ior",
+                    "confidence": 0.1561
+                },
+                {
+                    "text": "that performance scales",
+                    "confidence": 0.9111
+                },
+                {
+                    "text": "as Vour",
+                    "confidence": 0.2106
+                },
+                {
+                    "text": "nidtapel",
+                    "confidence": 0.0974
+                },
+                {
+                    "text": "Iincar pertormonce gains",
+                    "confidence": 0.4317
+                },
+                {
+                    "text": "dala grova nt miniral",
+                    "confidence": 0.0923
+                },
+                {
+                    "text": "downlime-",
+                    "confidence": 0.1172
+                },
+                {
+                    "text": "Sved Minhal Husain Rizvi",
+                    "confidence": 0.9529
+                },
+                {
+                    "text": "23bai10115",
+                    "confidence": 0.8454
+                },
+                {
+                    "text": "leg-",
+                    "confidence": 0.2622
+                },
+                {
+                    "text": "dalape",
+                    "confidence": 0.0653
+                },
+                {
+                    "text": "Seamless Integration & SQL Support",
+                    "confidence": 0.9868
+                },
+                {
+                    "text": "Native AWS Integrations",
+                    "confidence": 0.9233
+                },
+                {
+                    "text": "Broad Tool Compatibility",
+                    "confidence": 0.9559
+                },
+                {
+                    "text": "Amazon 53",
+                    "confidence": 0.9268
+                },
+                {
+                    "text": "Load and back up data directly fromlto 53.",
+                    "confidence": 0.8489
+                },
+                {
+                    "text": "Standard SQL",
+                    "confidence": 0.9176
+                },
+                {
+                    "text": "Use the SOL vou already know for complex queries; joins; and",
+                    "confidence": 0.5608
+                },
+                {
+                    "text": "aggregations:",
+                    "confidence": 0.8541
+                },
+                {
+                    "text": "AWS Giue",
+                    "confidence": 0.6783
+                },
+                {
+                    "text": "Automated data cataloging and ETL jobs:",
+                    "confidence": 0.7772
+                },
+                {
+                    "text": "Popular Bl Tools",
+                    "confidence": 0.7295
+                },
+                {
+                    "text": "Amazon SageMaker",
+                    "confidence": 0.8647
+                },
+                {
+                    "text": "Native connectors for Tableau; Power Bl Lookur, and more.",
+                    "confidence": 0.6309
+                },
+                {
+                    "text": "Bulld bain, and daploy inachine learning models:",
+                    "confidence": 0.3205
+                },
+                {
+                    "text": "Syed Minhal Husain Rizvi",
+                    "confidence": 0.9117
+                },
+                {
+                    "text": "23bal10115",
+                    "confidence": 0.9898
+                }
+            ],
+            "captions": [
+                "a screen showing the settings and settings of a computer",
+                "the screen shows the settings and features of the software",
+                "the screen shows the settings and features of the software",
+                "a screen showing the settings and settings of the software"
+            ]
+        },
+        {
+            "chunk_id": 7,
+            "scene": 8,
+            "start": 16.0,
+            "end": 22.0,
+            "text": "I give this presentation in winter semester.",
+            "ocr": [
+                {
+                    "text": "Use Cases for Redshift",
+                    "confidence": 0.9527
+                },
+                {
+                    "text": "Business Reporting",
+                    "confidence": 0.8135
+                },
+                {
+                    "text": "Real-time Dashboards",
+                    "confidence": 0.9897
+                },
+                {
+                    "text": "Log Analytics",
+                    "confidence": 0.9521
+                },
+                {
+                    "text": "Generate standard and ad-hoc reports ,",
+                    "confidence": 0.5747
+                },
+                {
+                    "text": "Powver live operational dashbourds:",
+                    "confidence": 0.5124
+                },
+                {
+                    "text": "Analyze application ard system logs",
+                    "confidence": 0.4417
+                },
+                {
+                    "text": "Predictive Modeling",
+                    "confidence": 0.9998
+                },
+                {
+                    "text": "Data Lake Querying",
+                    "confidence": 0.6953
+                },
+                {
+                    "text": "ML Integration",
+                    "confidence": 0.9988
+                },
+                {
+                    "text": "Build ML modets Ior forceesting",
+                    "confidence": 0.1929
+                },
+                {
+                    "text": "Query data dlrecily In 53 MAt Spectrum,",
+                    "confidence": 0.1085
+                },
+                {
+                    "text": "Use Reashii N forin-database",
+                    "confidence": 0.2551
+                },
+                {
+                    "text": "Ishaan Shrivastava",
+                    "confidence": 0.9995
+                },
+                {
+                    "text": "23bai10185",
+                    "confidence": 0.9715
+                },
+                {
+                    "text": "Top",
+                    "confidence": 0.9953
+                },
+                {
+                    "text": "ML",
+                    "confidence": 0.3496
+                },
+                {
+                    "text": "Use Cases for Redshift",
+                    "confidence": 0.8944
+                },
+                {
+                    "text": "Business Reporting",
+                    "confidence": 0.7831
+                },
+                {
+                    "text": "Real-time Dashboards",
+                    "confidence": 0.9962
+                },
+                {
+                    "text": "Analvtics",
+                    "confidence": 0.9484
+                },
+                {
+                    "text": "Generale Standard and ad-hoc reports:",
+                    "confidence": 0.3281
+                },
+                {
+                    "text": "Power Iive operrational dashboards:",
+                    "confidence": 0.5351
+                },
+                {
+                    "text": "Analyze application and system logs",
+                    "confidence": 0.7114
+                },
+                {
+                    "text": "Predictive Modeling",
+                    "confidence": 0.5823
+                },
+                {
+                    "text": "Data Lake Querying",
+                    "confidence": 0.961
+                },
+                {
+                    "text": "ML Integration",
+                    "confidence": 0.7804
+                },
+                {
+                    "text": "Build ML models for forecasting:",
+                    "confidence": 0.3868
+                },
+                {
+                    "text": "Query data directly in 53 with Spectrum:",
+                    "confidence": 0.5686
+                },
+                {
+                    "text": "Use Redshift ML for In-database ML",
+                    "confidence": 0.5621
+                },
+                {
+                    "text": "Ishaan Shrivastava",
+                    "confidence": 0.9964
+                },
+                {
+                    "text": "Z3bai10185",
+                    "confidence": 0.8468
+                },
+                {
+                    "text": "Top",
+                    "confidence": 0.9984
+                },
+                {
+                    "text": "Log L",
+                    "confidence": 0.2654
+                },
+                {
+                    "text": "Use Cases for Redshift",
+                    "confidence": 0.8148
+                },
+                {
+                    "text": "Business Reporting",
+                    "confidence": 0.9993
+                },
+                {
+                    "text": "Real-time Dashboards",
+                    "confidence": 0.9021
+                },
+                {
+                    "text": "Analytics",
+                    "confidence": 0.9974
+                },
+                {
+                    "text": "Generate standard and ad-hoc reports:",
+                    "confidence": 0.6749
+                },
+                {
+                    "text": "Powier Ilve operational dashboards",
+                    "confidence": 0.5846
+                },
+                {
+                    "text": "Analyze application and systemn logs:",
+                    "confidence": 0.6562
+                },
+                {
+                    "text": "Predictive Modeling",
+                    "confidence": 0.9977
+                },
+                {
+                    "text": "Data Lake Querying",
+                    "confidence": 0.9986
+                },
+                {
+                    "text": "ML Integration",
+                    "confidence": 0.9747
+                },
+                {
+                    "text": "Build ML models Ior lorcee6un9:",
+                    "confidence": 0.1142
+                },
+                {
+                    "text": "Query data dlrectly In 53 with Spectrum:",
+                    "confidence": 0.592
+                },
+                {
+                    "text": "Use RedshimML for In-database ML",
+                    "confidence": 0.5101
+                },
+                {
+                    "text": "Ishaan Shrivastava",
+                    "confidence": 0.927
+                },
+                {
+                    "text": "23ba/10185",
+                    "confidence": 0.7795
+                },
+                {
+                    "text": "Top",
+                    "confidence": 0.9977
+                },
+                {
+                    "text": "Log e",
+                    "confidence": 0.2297
+                },
+                {
+                    "text": "Use Cases for Redshift",
+                    "confidence": 0.8683
+                },
+                {
+                    "text": "Business",
+                    "confidence": 0.9998
+                },
+                {
+                    "text": "Reporting",
+                    "confidence": 0.6001
+                },
+                {
+                    "text": "Real-time Dashboards",
+                    "confidence": 0.9524
+                },
+                {
+                    "text": "Analytics",
+                    "confidence": 0.9988
+                },
+                {
+                    "text": "Generate standard and ad-hoc reports:",
+                    "confidence": 0.738
+                },
+                {
+                    "text": "Power live operational dashboards.",
+                    "confidence": 0.5698
+                },
+                {
+                    "text": "Analyze application and System logs",
+                    "confidence": 0.686
+                },
+                {
+                    "text": "Predictive Modeling",
+                    "confidence": 0.9701
+                },
+                {
+                    "text": "Data Lake Querying",
+                    "confidence": 0.7925
+                },
+                {
+                    "text": "ML Integration",
+                    "confidence": 0.9406
+                },
+                {
+                    "text": "Build ML models for forecasting;",
+                    "confidence": 0.4262
+                },
+                {
+                    "text": "Query data directly in 53 with Spectruma",
+                    "confidence": 0.6249
+                },
+                {
+                    "text": "Use Rledshilt MLtor Im-database M",
+                    "confidence": 0.1697
+                },
+                {
+                    "text": "Ishaan Shrivastava",
+                    "confidence": 0.7743
+                },
+                {
+                    "text": "23ba/10185",
+                    "confidence": 0.6257
+                },
+                {
+                    "text": "Top",
+                    "confidence": 0.9987
+                },
+                {
+                    "text": "Log e",
+                    "confidence": 0.5421
+                },
+                {
+                    "text": "Top Use Cases for Redshift",
+                    "confidence": 0.9905
+                },
+                {
+                    "text": "Business Reporting",
+                    "confidence": 0.9436
+                },
+                {
+                    "text": "Real-time Dashboards",
+                    "confidence": 0.9993
+                },
+                {
+                    "text": "Log Analytics",
+                    "confidence": 0.9998
+                },
+                {
+                    "text": "Generale standard and ad-hoc reports:",
+                    "confidence": 0.5841
+                },
+                {
+                    "text": "Powver Ilve operallomal dashboards:",
+                    "confidence": 0.1436
+                },
+                {
+                    "text": "Analyze application and System logs",
+                    "confidence": 0.6229
+                },
+                {
+                    "text": "Predictive Modeling",
+                    "confidence": 0.9255
+                },
+                {
+                    "text": "Data Lake Querying",
+                    "confidence": 0.9862
+                },
+                {
+                    "text": "ML Integration",
+                    "confidence": 0.8537
+                },
+                {
+                    "text": "Build ML models for forccasting;",
+                    "confidence": 0.4186
+                },
+                {
+                    "text": "Query data directly in 53 with Spectrum:",
+                    "confidence": 0.5026
+                },
+                {
+                    "text": "Use Redshitt ML IorImadatabase ML",
+                    "confidence": 0.1287
+                },
+                {
+                    "text": "Ishaan Shrivastava",
+                    "confidence": 0.9221
+                },
+                {
+                    "text": "2303/10185",
+                    "confidence": 0.5412
+                },
+                {
+                    "text": "Use Cases for Redshift",
+                    "confidence": 0.9809
+                },
+                {
+                    "text": "Business Reporting",
+                    "confidence": 0.8858
+                },
+                {
+                    "text": "Real-time Dashboards",
+                    "confidence": 0.9991
+                },
+                {
+                    "text": "Analytics",
+                    "confidence": 0.9999
+                },
+                {
+                    "text": "Generate standard and ad-hoc reports.",
+                    "confidence": 0.4936
+                },
+                {
+                    "text": "Power live operational dashboards:",
+                    "confidence": 0.8613
+                },
+                {
+                    "text": "Analyze application and system logs_",
+                    "confidence": 0.4848
+                },
+                {
+                    "text": "Predictive Modeling",
+                    "confidence": 0.9978
+                },
+                {
+                    "text": "Data Lake Querying",
+                    "confidence": 0.7614
+                },
+                {
+                    "text": "ML Integration",
+                    "confidence": 0.8835
+                },
+                {
+                    "text": "BuildML modets for forecasting;",
+                    "confidence": 0.4808
+                },
+                {
+                    "text": "Query data directly in 53 with Spectrum:",
+                    "confidence": 0.5977
+                },
+                {
+                    "text": "Use Redshift ML tor In-daabase ML",
+                    "confidence": 0.1472
+                },
+                {
+                    "text": "Ishaan Shrivastava",
+                    "confidence": 0.8837
+                },
+                {
+                    "text": "23ba/10185",
+                    "confidence": 0.6875
+                },
+                {
+                    "text": "Top",
+                    "confidence": 0.9981
+                },
+                {
+                    "text": "Log",
+                    "confidence": 0.9998
+                },
+                {
+                    "text": "Use Cases for Redshift",
+                    "confidence": 0.8497
+                },
+                {
+                    "text": "Business Reporting",
+                    "confidence": 0.8548
+                },
+                {
+                    "text": "Real-time Dashboards",
+                    "confidence": 0.694
+                },
+                {
+                    "text": "Log Analytics",
+                    "confidence": 0.9928
+                },
+                {
+                    "text": "Generate standard and ad-hoc reports:",
+                    "confidence": 0.9398
+                },
+                {
+                    "text": "Power live operational dashboards",
+                    "confidence": 0.6185
+                },
+                {
+                    "text": "Analyze application and System logs",
+                    "confidence": 0.5686
+                },
+                {
+                    "text": "Predictive Modeling",
+                    "confidence": 0.9998
+                },
+                {
+                    "text": "Data Lake Querying",
+                    "confidence": 0.995
+                },
+                {
+                    "text": "ML Integration",
+                    "confidence": 0.8745
+                },
+                {
+                    "text": "Build ML models for forecasting",
+                    "confidence": 0.497
+                },
+                {
+                    "text": "Query data directly in 53 with Spectrum:",
+                    "confidence": 0.6395
+                },
+                {
+                    "text": "Use RedshimML for In-database ML",
+                    "confidence": 0.5401
+                },
+                {
+                    "text": "Ishaan Shrivastava",
+                    "confidence": 0.9944
+                },
+                {
+                    "text": "23bai10185",
+                    "confidence": 0.98
+                },
+                {
+                    "text": "Top",
+                    "confidence": 0.998
+                },
+                {
+                    "text": "Use Cases for Redshift",
+                    "confidence": 0.7641
+                },
+                {
+                    "text": "Business Reporting",
+                    "confidence": 0.9999
+                },
+                {
+                    "text": "Real-time Dashboards",
+                    "confidence": 0.9613
+                },
+                {
+                    "text": "Log Analytics",
+                    "confidence": 0.9955
+                },
+                {
+                    "text": "Generate standard and ad-hoc reports:",
+                    "confidence": 0.617
+                },
+                {
+                    "text": "Powiar Ilve operallonal dashboands;",
+                    "confidence": 0.2837
+                },
+                {
+                    "text": "Analyze application and System logs",
+                    "confidence": 0.7035
+                },
+                {
+                    "text": "Predictive Modeling",
+                    "confidence": 0.885
+                },
+                {
+                    "text": "Data Lake Querying",
+                    "confidence": 0.8444
+                },
+                {
+                    "text": "ML Integration",
+                    "confidence": 0.901
+                },
+                {
+                    "text": "Build ML modas ler leneaesting;",
+                    "confidence": 0.0483
+                },
+                {
+                    "text": "Query data dlreetly In 53 with Spectrum.",
+                    "confidence": 0.2899
+                },
+                {
+                    "text": "Use Redshift ML for In-database ML",
+                    "confidence": 0.6336
+                },
+                {
+                    "text": "Ishaan Shrivastava",
+                    "confidence": 0.9853
+                },
+                {
+                    "text": "23ba/10185",
+                    "confidence": 0.3423
+                },
+                {
+                    "text": "Top",
+                    "confidence": 0.9966
+                },
+                {
+                    "text": "Use Cases for Redshift",
+                    "confidence": 0.9994
+                },
+                {
+                    "text": "Business Reporting",
+                    "confidence": 0.9301
+                },
+                {
+                    "text": "Real-time Dashboards",
+                    "confidence": 0.8318
+                },
+                {
+                    "text": "Analvtics",
+                    "confidence": 0.7586
+                },
+                {
+                    "text": "Generate standard and ad-hoc reports:",
+                    "confidence": 0.6673
+                },
+                {
+                    "text": "Power Ilve operatlonal dashboards",
+                    "confidence": 0.697
+                },
+                {
+                    "text": "Analyze application ad System logs",
+                    "confidence": 0.7443
+                },
+                {
+                    "text": "Predictive Modeling",
+                    "confidence": 0.8853
+                },
+                {
+                    "text": "Lake Querying",
+                    "confidence": 0.7038
+                },
+                {
+                    "text": "MC",
+                    "confidence": 0.2365
+                },
+                {
+                    "text": "Integration",
+                    "confidence": 0.9995
+                },
+                {
+                    "text": "Build ML meeests for forcastng;",
+                    "confidence": 0.1657
+                },
+                {
+                    "text": "Query data directly In 53 with Spectrum:",
+                    "confidence": 0.6721
+                },
+                {
+                    "text": "Use Redshift ML for In-database ML",
+                    "confidence": 0.6072
+                },
+                {
+                    "text": "Ishaan Shrivastava",
+                    "confidence": 0.8439
+                },
+                {
+                    "text": "23bai10185",
+                    "confidence": 0.5048
+                },
+                {
+                    "text": "Top",
+                    "confidence": 0.998
+                },
+                {
+                    "text": "Log e",
+                    "confidence": 0.6032
+                },
+                {
+                    "text": "Data",
+                    "confidence": 0.991
+                },
+                {
+                    "text": "Use Cases for Redshift",
+                    "confidence": 0.6742
+                },
+                {
+                    "text": "Business Reporting",
+                    "confidence": 0.731
+                },
+                {
+                    "text": "Real-time Dashboards",
+                    "confidence": 0.999
+                },
+                {
+                    "text": "Analytics",
+                    "confidence": 0.9261
+                },
+                {
+                    "text": "Generate standard and ad-hoc reports:",
+                    "confidence": 0.695
+                },
+                {
+                    "text": "Power Ilve operralional dashboards:",
+                    "confidence": 0.4953
+                },
+                {
+                    "text": "Analyze application and system logs",
+                    "confidence": 0.8285
+                },
+                {
+                    "text": "Predictive Modeling",
+                    "confidence": 0.9871
+                },
+                {
+                    "text": "Data Lake Querying",
+                    "confidence": 0.9953
+                },
+                {
+                    "text": "ML Integration",
+                    "confidence": 0.9896
+                },
+                {
+                    "text": "Build ML moduls for forceasting",
+                    "confidence": 0.337
+                },
+                {
+                    "text": "Quary data direclly In S3 with Spectrum,",
+                    "confidence": 0.3161
+                },
+                {
+                    "text": "Use Redshint ML for In-database ML",
+                    "confidence": 0.3513
+                },
+                {
+                    "text": "Ishaan Shrivastava",
+                    "confidence": 0.9888
+                },
+                {
+                    "text": "Z3bai10185",
+                    "confidence": 0.7187
+                },
+                {
+                    "text": "Top",
+                    "confidence": 0.9984
+                },
+                {
+                    "text": "Log =",
+                    "confidence": 0.3247
+                },
+                {
+                    "text": "Use Cases for Redshift",
+                    "confidence": 0.8421
+                },
+                {
+                    "text": "Business Reporting",
+                    "confidence": 0.9997
+                },
+                {
+                    "text": "Real-time Dashboards",
+                    "confidence": 0.9879
+                },
+                {
+                    "text": "Analytics",
+                    "confidence": 0.9167
+                },
+                {
+                    "text": "Generate standard and ad-hoc reports:",
+                    "confidence": 0.6084
+                },
+                {
+                    "text": "Powver Ilvvetoperational dusboards:",
+                    "confidence": 0.2177
+                },
+                {
+                    "text": "Analyze application and system logs",
+                    "confidence": 0.807
+                },
+                {
+                    "text": "Predictive Modeling",
+                    "confidence": 0.9992
+                },
+                {
+                    "text": "Data Lake Querying",
+                    "confidence": 0.9969
+                },
+                {
+                    "text": "ML Integration",
+                    "confidence": 0.6966
+                },
+                {
+                    "text": "Build ML models tor foreeeeting:",
+                    "confidence": 0.2127
+                },
+                {
+                    "text": "Query data dlrecty In 53 with Spectrum.",
+                    "confidence": 0.4876
+                },
+                {
+                    "text": "Use Redshiit ML for In-database ML",
+                    "confidence": 0.8325
+                },
+                {
+                    "text": "Ishaan Shrivastava",
+                    "confidence": 0.6963
+                },
+                {
+                    "text": "230a/10185",
+                    "confidence": 0.4332
+                },
+                {
+                    "text": "Top",
+                    "confidence": 0.998
+                },
+                {
+                    "text": "Log",
+                    "confidence": 0.9998
+                },
+                {
+                    "text": "Benefits Over Traditional Warehouses",
+                    "confidence": 0.9466
+                },
+                {
+                    "text": "Traditional On-Premise",
+                    "confidence": 0.7235
+                },
+                {
+                    "text": "Amazon Redshift",
+                    "confidence": 0.9999
+                },
+                {
+                    "text": "High upfront hardware costs and complex setup:",
+                    "confidence": 0.6333
+                },
+                {
+                    "text": "No hardware setup with a fully managed",
+                    "confidence": 0.8877
+                },
+                {
+                    "text": "senvice",
+                    "confidence": 0.3796
+                },
+                {
+                    "text": "Difficult and costly t0 scale; often leading t0 over-",
+                    "confidence": 0.4245
+                },
+                {
+                    "text": "Pay-as you-go pricing and elastic scaling t0 match",
+                    "confidence": 0.5818
+                },
+                {
+                    "text": "provisioning:",
+                    "confidence": 0.6478
+                },
+                {
+                    "text": "demand:",
+                    "confidence": 0.9746
+                },
+                {
+                    "text": "Slgnificant operational overhead for malntenance",
+                    "confidence": 0.4887
+                },
+                {
+                    "text": "MInimal operational overhead, accelerating",
+                    "confidence": 0.628
+                },
+                {
+                    "text": "and tuning:",
+                    "confidence": 0.6916
+                },
+                {
+                    "text": "deployment and reducing costs.",
+                    "confidence": 0.7853
+                },
+                {
+                    "text": "Ishaan Shrivastava",
+                    "confidence": 0.7942
+                },
+                {
+                    "text": "23bai10185",
+                    "confidence": 0.823
+                }
+            ],
+            "captions": [
+                "a screen showing the top 10 case for refit",
+                "a screen showing the top users ' reddit",
+                "a screen showing the top users ' redire",
+                "a screen showing the top users ' options",
+                "a screen showing the top users ' features",
+                "a screen showing the top users ' redire",
+                "a screen showing the top users ' options",
+                "a screen showing the top users ' options",
+                "a screen showing the top users ' reddit",
+                "a screen showing the top 10 uses for freshit",
+                "a screen showing the top users ' feedbacks",
+                "a screen showing the different features of a tv"
+            ]
+        },
+        {
+            "chunk_id": 8,
+            "scene": 18,
+            "start": 30.0,
+            "end": 32.0,
+            "text": "Thank you.",
+            "ocr": [
+                {
+                    "text": "THANK YOU",
+                    "confidence": 0.9972
+                },
+                {
+                    "text": "Ismam Shnvastava",
+                    "confidence": 0.2381
+                },
+                {
+                    "text": "23BA/10185",
+                    "confidence": 0.6866
+                },
+                {
+                    "text": "MinAEI Husain",
+                    "confidence": 0.1441
+                },
+                {
+                    "text": "2384110115",
+                    "confidence": 0.5238
+                },
+                {
+                    "text": "Vishu Kumar",
+                    "confidence": 0.5936
+                },
+                {
+                    "text": "Strgh",
+                    "confidence": 0.1327
+                },
+                {
+                    "text": "23BCE10348",
+                    "confidence": 0.9465
+                },
+                {
+                    "text": "THANK YOU",
+                    "confidence": 0.9922
+                },
+                {
+                    "text": "Ishaan Shrivastava",
+                    "confidence": 0.5892
+                },
+                {
+                    "text": "23B4/10185",
+                    "confidence": 0.5742
+                },
+                {
+                    "text": "Aimhay Husain",
+                    "confidence": 0.1187
+                },
+                {
+                    "text": "23B4J10115",
+                    "confidence": 0.3764
+                },
+                {
+                    "text": "Vachu Kumar",
+                    "confidence": 0.403
+                },
+                {
+                    "text": "Simgh",
+                    "confidence": 0.224
+                },
+                {
+                    "text": "23BCE10348",
+                    "confidence": 0.9218
+                },
+                {
+                    "text": "THANK YOU",
+                    "confidence": 0.9988
+                },
+                {
+                    "text": "Ishaam Shrivastava",
+                    "confidence": 0.3919
+                },
+                {
+                    "text": "23BA/10185",
+                    "confidence": 0.5993
+                },
+                {
+                    "text": "Mihal Husain",
+                    "confidence": 0.3937
+                },
+                {
+                    "text": "23BA/10115",
+                    "confidence": 0.4532
+                },
+                {
+                    "text": "Vichu Kumar",
+                    "confidence": 0.4931
+                },
+                {
+                    "text": "Singh",
+                    "confidence": 0.1378
+                },
+                {
+                    "text": "23BCE10348",
+                    "confidence": 0.8768
+                },
+                {
+                    "text": "THANK YOU",
+                    "confidence": 0.9988
+                },
+                {
+                    "text": "Ishaan Shrivastava",
+                    "confidence": 0.5465
+                },
+                {
+                    "text": "23B4/10185",
+                    "confidence": 0.6177
+                },
+                {
+                    "text": "Minhal Husain",
+                    "confidence": 0.3841
+                },
+                {
+                    "text": "23B4/10115",
+                    "confidence": 0.3918
+                },
+                {
+                    "text": "VsU Kumar",
+                    "confidence": 0.6476
+                },
+                {
+                    "text": "Sugh",
+                    "confidence": 0.1641
+                },
+                {
+                    "text": "23BCE10348",
+                    "confidence": 0.9822
+                }
+            ],
+            "captions": [
+                "a screen with the words thank you on it",
+                "a man is standing in front of a screen with the words thank you",
+                "a screen with the words thank you on it",
+                "a screen with the words thank on it"
+            ]
+        }
     ]
 }
