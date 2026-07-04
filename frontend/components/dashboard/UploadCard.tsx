@@ -7,6 +7,7 @@ import { UploadSuccess } from "@/components/upload/UploadSuccess";
 import { videoApi, type VideoUploadResponse } from "@/services/video-api";
 import { CancelTokenSource } from "axios";
 import { AlertCircle } from "lucide-react";
+import { useWorkspace } from "@/context/WorkspaceContext";
 
 export function UploadCard() {
   const [file, setFile] = useState<File | null>(null);
@@ -17,6 +18,8 @@ export function UploadCard() {
   
   const cancelTokenRef = useRef<CancelTokenSource | null>(null);
 
+  const { setActiveWorkspace } = useWorkspace();
+  
   const handleFileSelect = async (selectedFile: File) => {
     setFile(selectedFile);
     setProgress(0);
@@ -35,6 +38,21 @@ export function UploadCard() {
       );
       
       setUploadResult(response);
+      
+      // Update global context with the newly uploaded video
+      setActiveWorkspace({
+        videoId: response.video_id,
+        filename: response.filename,
+        status: response.status,
+        metadata: {
+          duration: response.duration,
+          width: response.width,
+          height: response.height,
+          fps: response.fps,
+          total_frames: response.total_frames,
+        }
+      });
+      
     } catch (err: any) {
       if (err.message !== "Upload cancelled") {
         setError(err.message || "Failed to upload video");

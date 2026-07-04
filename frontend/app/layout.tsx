@@ -14,6 +14,7 @@ export const metadata: Metadata = {
 };
 
 import { AppShell } from "@/components/layout/AppShell";
+import { WorkspaceProvider } from "@/context/WorkspaceContext";
 
 export default function RootLayout({
   children,
@@ -23,7 +24,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`} suppressHydrationWarning>
       <body className="min-h-full bg-background font-sans text-foreground">
-        <AppShell>{children}</AppShell>
+        <WorkspaceProvider>
+          <AppShell>{children}</AppShell>
+        </WorkspaceProvider>
       </body>
     </html>
   );

@@ -60,7 +60,7 @@ class ProcessingService:
             workspace_path = self.workspace_service.get_workspace_path(video_id)
 
             # 1. Extract audio
-            logger.info("[%s] 1. Extracting audio...", video_id)
+            print("STEP 1 - Audio")
             audio_result = self.audio_service.extract(video_path, video_id)
             audio_path_str = audio_result.get("audio_path")
             
@@ -70,29 +70,29 @@ class ProcessingService:
             audio_file_path = Path(audio_path_str)
 
             # 2. Transcribe audio
-            logger.info("[%s] 2. Transcribing audio...", video_id)
+            print("STEP 2 - Transcript")
             transcript_result = self.transcript_service.transcribe(audio_file_path)
             self.workspace_service.save_transcript(video_id, transcript_result)
 
             # 3. Extract keyframes
-            logger.info("[%s] 3. Extracting keyframes...", video_id)
+            print("STEP 3 - Frames")
             frame_result = self.frame_service.extract_frames(video_path, workspace_path)
             frames_dir = Path(frame_result["frames_directory"])
 
             # 4. Extract OCR text
-            logger.info("[%s] 4. Running OCR...", video_id)
+            print("STEP 4 - OCR")
             ocr_result = self.ocr_service.extract_text(frames_dir)
 
             # 5. Detect scenes
-            logger.info("[%s] 5. Detecting scenes...", video_id)
+            print("STEP 5 - Scene Detection")
             scene_result = self.scene_service.detect_scenes(frames_dir)
 
             # 6. Generate captions
-            logger.info("[%s] 6. Generating image captions...", video_id)
+            print("STEP 6 - Captioning")
             caption_result = self.caption_service.generate_captions(frames_dir)
 
             # 7. Build initial knowledge base
-            logger.info("[%s] 7. Building knowledge base...", video_id)
+            print("STEP 7 - Knowledge")
             knowledge = self.knowledge_service.build_knowledge(
                 workspace_path=workspace_path,
                 ocr_result=ocr_result,
@@ -101,23 +101,23 @@ class ProcessingService:
             )
 
             # 8. Build timeline
-            logger.info("[%s] 8. Building chronological timeline...", video_id)
+            print("STEP 8 - Timeline")
             knowledge = self.timeline_service.build_timeline(knowledge)
 
             # 9. Build semantic chunks
-            logger.info("[%s] 9. Creating semantic chunks...", video_id)
+            print("STEP 9 - Chunking")
             knowledge = self.chunking_service.build_chunks(knowledge)
 
             # 10. Generate embeddings
-            logger.info("[%s] 10. Generating embeddings...", video_id)
+            print("STEP 10 - Embeddings")
             knowledge = self.embedding_service.generate_embeddings(knowledge)
 
             # 11. Build Vector Index (FAISS)
-            logger.info("[%s] 11. Building FAISS vector index...", video_id)
+            print("STEP 11 - FAISS")
             vector_result = self.vector_service.build_index(knowledge, workspace_path)
 
             # 12. Save final enriched knowledge.json
-            logger.info("[%s] 12. Saving final enriched knowledge.json...", video_id)
+            print("STEP 12 - Save")
             knowledge_path = workspace_path / "knowledge.json"
             with knowledge_path.open("w", encoding="utf-8") as f:
                 json.dump(knowledge, f, indent=4)
