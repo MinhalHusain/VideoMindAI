@@ -1,31 +1,93 @@
-import { UploadCloud } from "lucide-react";
+"use client";
+
+import { useState, useRef } from "react";
+import { UploadDropzone } from "@/components/upload/UploadDropzone";
+import { UploadProgress } from "@/components/upload/UploadProgress";
+import { UploadSuccess } from "@/components/upload/UploadSuccess";
+import { videoApi, type VideoUploadResponse } from "@/services/video-api";
+import { CancelTokenSource } from "axios";
+import { AlertCircle } from "lucide-react";
 
 export function UploadCard() {
+  const [file, setFile] = useState<File | null>(null);
+  const [progress, setProgress] = useState(0);
+  const [isUploading, setIsUploading] = useState(false);
+  const [uploadResult, setUploadResult] = useState<VideoUploadResponse | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  
+  const cancelTokenRef = useRef<CancelTokenSource | null>(null);
+
+  const handleFileSelect = async (selectedFile: File) => {
+    setFile(selectedFile);
+    setProgress(0);
+    setError(null);
+    setIsUploading(true);
+    
+    cancelTokenRef.current = videoApi.createCancelTokenSource();
+
+    try {
+      const response = await videoApi.uploadVideo(
+        selectedFile,
+        (progressPercent) => {
+          setProgress(progressPercent);
+        },
+        cancelTokenRef.current
+      );
+      
+      setUploadResult(response);
+    } catch (err: any) {
+      if (err.message !== "Upload cancelled") {
+        setError(err.message || "Failed to upload video");
+      }
+    } finally {
+      setIsUploading(false);
+      cancelTokenRef.current = null;
+    }
+  };
+
+  const handleCancel = () => {
+    if (cancelTokenRef.current) {
+      cancelTokenRef.current.cancel("Upload cancelled");
+    }
+    resetUpload();
+  };
+
+  const resetUpload = () => {
+    setFile(null);
+    setProgress(0);
+    setIsUploading(false);
+    setUploadResult(null);
+    setError(null);
+    cancelTokenRef.current = null;
+  };
+
+  // Render success state
+  if (uploadResult) {
+    return <UploadSuccess data={uploadResult} onUploadAnother={resetUpload} />;
+  }
+
+  // Render progress state
+  if (isUploading && file) {
+    return <UploadProgress filename={file.name} progress={progress} onCancel={handleCancel} />;
+  }
+
+  // Render dropzone inside the card
   return (
     <div className="relative overflow-hidden rounded-2xl border border-border bg-card p-8 text-center shadow-sm transition-all hover:shadow-md">
       {/* Background glow effect */}
-      <div className="absolute inset-0 bg-gradient-to-br from-violet-500/5 via-transparent to-indigo-500/5" />
+      <div className="absolute inset-0 pointer-events-none bg-gradient-to-br from-violet-500/5 via-transparent to-indigo-500/5" />
       
-      <div className="relative z-10 flex flex-col items-center justify-center space-y-6">
-        <div className="flex h-20 w-20 items-center justify-center rounded-full bg-violet-100 dark:bg-violet-900/20">
-          <UploadCloud className="h-10 w-10 text-violet-600 dark:text-violet-400" />
-        </div>
-        
-        <div className="space-y-2">
-          <h3 className="text-xl font-semibold tracking-tight text-foreground">
-            Analyze a New Video
-          </h3>
-          <p className="text-sm text-muted-foreground">
-            Drop your video here or click to browse. We&apos;ll extract scenes, captions, and text for you.
-          </p>
+      <div className="relative z-10 flex flex-col items-center justify-center">
+        <div className="w-full">
+          <UploadDropzone onFileSelect={handleFileSelect} isLoading={isUploading} />
         </div>
 
-        <button 
-          type="button"
-          className="inline-flex h-11 items-center justify-center rounded-md bg-violet-600 px-8 text-sm font-medium text-white transition-colors hover:bg-violet-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-600 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-        >
-          Upload Video
-        </button>
+        {error && (
+          <div className="mt-4 flex w-full items-center gap-2 rounded-lg bg-destructive/15 p-4 text-sm text-destructive text-left">
+            <AlertCircle className="h-4 w-4 shrink-0" />
+            <p>{error}</p>
+          </div>
+        )}
       </div>
     </div>
   );
