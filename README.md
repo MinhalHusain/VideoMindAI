@@ -239,9 +239,9 @@ Gemini RAG Chat
 
 ---
 
-| Transcript | Knowledge Explorer |
+| Knowledge Explorer | Transcript |
 |------------|--------------------|
-| ![](docs/images/transcript_placeholder.png) | ![](docs/images/explorer_placeholder.png) |
+| ![](docs/images/explorer_placeholder.png) | ![](docs/images/transcript_placeholder.png) |
 | ![](docs/images/explorer_placeholder2.png) |
 ---
 
