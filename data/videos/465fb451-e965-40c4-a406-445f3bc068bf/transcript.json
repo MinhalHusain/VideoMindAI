@@ -1,0 +1,76 @@
+{
+  "language": "en",
+  "transcript": "Amazon Web Services launched in 2006 with a total of three products. Storage buckets, compute instances, and a messaging queue. Today, it offers a mind-numbing 200-and-something services. And what's most confusing is that many of them appear to do almost the exact same thing. It's kind of like shopping at a big grocery store where you have different aisles of product categories filled with things to buy that meet the needs of virtually every developer on the planet. In today's video, we'll walk down these aisles to gain an understanding of over 50 different AWS products. So first, let's start with a few that are above my pay grade that you may not know exist. If you're building robots, you can use RoboMaker to simulate and test your robots at scale. Then once your robots are in people's homes, you can use IoT Core to collect data from them, update their software, and manage them remotely. If you happen to have a satellite orbiting Earth...",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "text": "Amazon Web Services launched in 2006 with a total of three products."
+    },
+    {
+      "start": 8.0,
+      "end": 11.08,
+      "text": "Storage buckets, compute instances, and a messaging queue."
+    },
+    {
+      "start": 11.08,
+      "end": 14.64,
+      "text": "Today, it offers a mind-numbing 200-and-something services."
+    },
+    {
+      "start": 14.64,
+      "end": 18.76,
+      "text": "And what's most confusing is that many of them appear to do almost the exact same thing."
+    },
+    {
+      "start": 18.76,
+      "end": 22.44,
+      "text": "It's kind of like shopping at a big grocery store where you have different aisles of product"
+    },
+    {
+      "start": 22.44,
+      "end": 26.240000000000002,
+      "text": "categories filled with things to buy that meet the needs of virtually every developer"
+    },
+    {
+      "start": 26.240000000000002,
+      "end": 27.240000000000002,
+      "text": "on the planet."
+    },
+    {
+      "start": 27.240000000000002,
+      "end": 31.240000000000002,
+      "text": "In today's video, we'll walk down these aisles to gain an understanding of over 50"
+    },
+    {
+      "start": 31.240000000000002,
+      "end": 33.08,
+      "text": "different AWS products."
+    },
+    {
+      "start": 33.08,
+      "end": 37.38,
+      "text": "So first, let's start with a few that are above my pay grade that you may not know exist."
+    },
+    {
+      "start": 37.38,
+      "end": 42.160000000000004,
+      "text": "If you're building robots, you can use RoboMaker to simulate and test your robots at scale."
+    },
+    {
+      "start": 42.160000000000004,
+      "end": 46.400000000000006,
+      "text": "Then once your robots are in people's homes, you can use IoT Core to collect data from"
+    },
+    {
+      "start": 46.400000000000006,
+      "end": 49.32000000000001,
+      "text": "them, update their software, and manage them remotely."
+    },
+    {
+      "start": 49.32,
+      "end": 51.08,
+      "text": "If you happen to have a satellite orbiting Earth..."
+    }
+  ]
+}
