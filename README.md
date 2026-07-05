@@ -192,24 +192,59 @@ Gemini RAG Chat
 
 # 🛠️ Technology Stack
 
+# 💻 Technology Stack
+
 ## Frontend
 
-- Next.js v24.18.0
-- React
+- Next.js 16
+- React 19
 - TypeScript
 - Tailwind CSS v4
 - shadcn/ui
 - Axios
-- Lucide Icons
+- Lucide React
+- Framer Motion
+- Sonner
 
 ---
 
 ## Backend
 
+- Python 3.11
 - FastAPI
-- Python 3.11.4
+- Uvicorn
+- Pydantic
 - OpenCV
 - FFmpeg
+
+---
+
+## Machine Learning
+
+- PyTorch
+- Hugging Face Transformers
+
+---
+
+## Computer Vision & NLP
+
+- Frame Extraction
+- OCR
+- Scene Detection
+- Image Captioning
+- Semantic Chunking
+- Vector Embeddings
+- Retrieval-Augmented Generation (RAG)
+
+---
+
+## Development Tools
+
+- Git
+- GitHub
+- Docker
+- Python Virtual Environment (venv)
+- npm
 
 ---
 
@@ -222,12 +257,7 @@ Gemini RAG Chat
 | OCR | EasyOCR |
 | Text Embeddings | BAAI/bge-small-en-v1.5 |
 | Large Language Model | Gemini 2.5 Flash |
-
----
-
-## Vector Database
-
-- FAISS
+| Vector Database | FAISS |
 
 ---
 
