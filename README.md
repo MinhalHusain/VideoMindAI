@@ -190,7 +190,6 @@ Gemini RAG Chat
 
 ---
 
-# 🛠️ Technology Stack
 
 # 💻 Technology Stack
 
