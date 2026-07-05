@@ -1,40 +1,421 @@
 # 🎥 VideoMind AI
+![VideoMind AI Banner](docs/images/banner.png)
+> **Transform any video into a searchable, multimodal AI knowledge base that you can chat with.**
 
-An AI-powered multimodal video intelligence assistant that understands videos through speech recognition, computer vision, OCR, and Large Language Models.
+VideoMind AI is a full-stack, multimodal AI application that understands videos by combining **speech recognition, computer vision, semantic search, and Retrieval-Augmented Generation (RAG)**.
 
-## Status
+Upload a video once, and the system automatically:
 
-🚧 Under Development
+- 🎙️ Transcribes spoken audio
+- 👁️ Extracts on-screen text using OCR
+- 🖼️ Generates image captions
+- 🎬 Detects scene boundaries
+- 🧠 Builds a structured semantic knowledge base
+- 🔎 Indexes content using FAISS vector search
+- 🤖 Lets you chat naturally with your video's content using Gemini 2.5 Flash through a Retrieval-Augmented Generation (RAG) pipeline
 
-## Planned Features
+The goal is to make long videos instantly searchable and conversational.
 
-- Upload videos
-- AI-generated summaries
-- Chat with videos
-- OCR from frames
-- Object detection
+---
+
+# ✨ Key Highlights
+
+- 🎥 End-to-end multimodal AI pipeline
+- 🤖 Gemini-powered Retrieval-Augmented Generation (RAG)
+- 🎙️ Automatic speech transcription with Whisper
+- 👁️ OCR for extracting on-screen text
+- 🖼️ AI-generated image captions
+- 🎬 Scene detection and timeline creation
+- 🧠 Semantic chunking and vector embeddings
+- 🔎 FAISS-powered semantic search
+- ⚡ FastAPI backend + Next.js frontend
+- 🌙 Modern responsive UI built with shadcn/ui
+
+---
+
+# 🏗️ System Architecture
+
+```mermaid
+graph TD
+
+A[Upload Video]
+
+A --> B[Video Processing Pipeline]
+
+B --> C[Audio Extraction]
+B --> D[Frame Extraction]
+
+C --> E[Whisper Transcription]
+
+D --> F[OCR]
+D --> G[Scene Detection]
+D --> H[Image Captioning]
+
+E --> I[Knowledge Builder]
+F --> I
+G --> I
+H --> I
+
+I --> J[Timeline Builder]
+J --> K[Semantic Chunking]
+K --> L[Embedding Generation]
+L --> M[FAISS Vector Index]
+
+N[User Question]
+N --> O[Retriever]
+
+O --> M
+
+M --> P[Prompt Builder]
+
+P --> Q[Gemini 2.5 Flash]
+
+Q --> R[Final Answer]
+```
+
+---
+
+# 🔄 Processing Pipeline
+
+```text
+Upload Video
+      │
+      ▼
+Extract Audio
+      │
+      ▼
+Whisper Speech Recognition
+      │
+      ▼
+Extract Frames
+      │
+      ▼
+OCR
+      │
+      ▼
+Scene Detection
+      │
+      ▼
+Image Captioning
+      │
+      ▼
+Knowledge Builder
+      │
+      ▼
+Timeline Generation
+      │
+      ▼
+Semantic Chunking
+      │
+      ▼
+Embeddings
+      │
+      ▼
+FAISS Index
+      │
+      ▼
+Retriever
+      │
+      ▼
+Gemini RAG Chat
+```
+
+---
+
+# 🚀 Features
+
+## 🎥 Video Processing
+
+- Video upload and validation
+- Automatic workspace creation
+- Metadata extraction
+- Optimized frame sampling
+- Audio extraction
+
+---
+
+## 🧠 Artificial Intelligence
+
+### Speech Intelligence
+
+- Faster-Whisper Small speech-to-text transcription
+
+### Vision Intelligence
+
+- OCR using EasyOCR
+- Image caption generation
 - Scene detection
-- Search inside videos
-- Timestamp-based answers
-- Notes generation
-- Quiz generation
 
-## Tech Stack
+### Knowledge Intelligence
 
-### Backend
-- FastAPI
-- Python
+- Timeline creation
+- Semantic chunking
+- Embedding generation
+- FAISS vector database
 
-### Frontend
+### Conversational AI
+
+- Gemini 2.5 Flash powered Retrieval-Augmented Generation (RAG)
+
+---
+
+## 💻 Frontend
+
+- Modern Dashboard
+- Workspace management
+- Upload interface
+- Processing dashboard
+- Transcript Viewer
+- Knowledge Explorer
+- AI Chat Interface
+- Responsive design
+- Dark mode support
+
+---
+
+# 🛠️ Technology Stack
+
+## Frontend
+
+- Next.js v24.18.0
 - React
 - TypeScript
-- Tailwind CSS
+- Tailwind CSS v4
+- shadcn/ui
+- Axios
+- Lucide Icons
 
-### AI
-- Whisper
-- YOLO
-- Florence-2
-- EasyOCR
-- Sentence Transformers
+---
+
+## Backend
+
+- FastAPI
+- Python 3.11.4
+- OpenCV
+- FFmpeg
+
+---
+
+## 🤖 AI Models
+
+| Purpose | Model |
+|----------|-------|
+| Speech Recognition | Faster-Whisper Small |
+| Image Captioning | BLIP |
+| OCR | EasyOCR |
+| Text Embeddings | BAAI/bge-small-en-v1.5 |
+| Large Language Model | Gemini 2.5 Flash |
+
+---
+
+## Vector Database
+
 - FAISS
-- Gemini API
+
+---
+
+# 📸 Screenshots
+
+| Dashboard | Chat |
+|------------|------|
+| ![](docs/images/dashboard_placeholder.png) | ![](docs/images/chat_placeholder.png) |
+
+---
+
+| Transcript | Knowledge Explorer |
+|------------|--------------------|
+| ![](docs/images/transcript_placeholder.png) | ![](docs/images/explorer_placeholder.png) |
+| ![](docs/images/explorer_placeholder2.png) |
+---
+
+# ⚡ Performance
+
+The processing pipeline was optimized to reduce unnecessary computation.
+
+### Frame Sampling
+
+Originally:
+
+```
+1 frame / second
+```
+
+Optimized:
+
+```
+1 frame / 5 seconds
+```
+
+This significantly reduces OCR, caption generation, and embedding computation while preserving semantic information for lectures and presentations.
+
+---
+
+## 📂 Project Structure
+
+```text
+VideoMindAI/
+│
+├── backend/
+│   ├── app/
+│   │   ├── api/                 # FastAPI route handlers
+│   │   ├── schemas/             # Pydantic request/response models
+│   │   ├── services/            # AI processing pipeline
+│   │   │   ├── audio_service.py
+│   │   │   ├── transcript_service.py
+│   │   │   ├── frame_service.py
+│   │   │   ├── ocr_service.py
+│   │   │   ├── scene_service.py
+│   │   │   ├── caption_service.py
+│   │   │   ├── knowledge_service.py
+│   │   │   ├── timeline_service.py
+│   │   │   ├── chunking_service.py
+│   │   │   ├── embedding_service.py
+│   │   │   ├── vector_service.py
+│   │   │   ├── retrieval_service.py
+│   │   │   ├── prompt_builder.py
+│   │   │   ├── chat_service.py
+│   │   │   ├── processing_service.py
+│   │   │   ├── video_service.py
+│   │   │   └── workspace_service.py
+│   │   └── main.py
+│   │
+│   ├── data/
+│   │   └── videos/              # Workspace data for uploaded videos
+│   │
+│   ├── tests/
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── app/
+│   │   ├── chat/
+│   │   ├── knowledge/
+│   │   ├── transcript/
+│   │   ├── upload/
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   │
+│   ├── components/
+│   │   ├── chat/
+│   │   ├── dashboard/
+│   │   ├── knowledge/
+│   │   ├── transcript/
+│   │   ├── layout/
+│   │   └── ui/
+│   │
+│   ├── context/
+│   ├── services/
+│   ├── lib/
+│   ├── public/
+│   └── package.json
+│
+├── .github/
+│   └── workflows/
+│
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+---
+
+## Backend
+
+```bash
+cd backend
+
+python -m venv .venv
+
+source .venv/bin/activate
+```
+
+Windows
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Create
+
+```
+backend/.env
+```
+
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+Run
+
+```bash
+uvicorn app.main:app --reload
+```
+
+---
+
+## Frontend
+
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+Application
+
+```
+http://localhost:3000
+```
+
+---
+
+# 🔌 API Endpoints
+
+| Method | Endpoint | Description |
+|----------|----------|-------------|
+| GET | `/` | API root endpoint |
+| GET | `/health` | Health check |
+| POST | `/api/v1/videos/upload` | Upload and process a video |
+| POST | `/api/v1/chat` | Ask questions about a processed video using RAG |
+| GET | `/api/v1/workspaces/{workspace_id}/transcript` | Retrieve transcript |
+| GET | `/api/v1/workspaces/{workspace_id}/knowledge` | Retrieve structured knowledge base |
+| GET | `/api/v1/workspaces/{workspace_id}/stats` | Retrieve processing statistics |
+---
+
+# 🔮 Future Improvements
+
+- Background processing with Celery/Redis
+- Real-time processing progress
+- Video player synchronized with transcript
+- Clickable timestamps
+- Multi-user authentication
+- Cloud storage support (AWS S3 / GCS)
+- Docker deployment
+- Kubernetes support
+- Multi-language transcription
+- Streaming video analysis
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+See the **LICENSE** file for details.
+
+---
+
+# 👨‍💻 Author
+
+**Minhal Husain**
+
+B.Tech Computer Science (AI/ML)
+
+Built as a full-stack multimodal AI system demonstrating Retrieval-Augmented Generation (RAG), Computer Vision, Natural Language Processing, and modern web application development.
