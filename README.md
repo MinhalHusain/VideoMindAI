@@ -31,6 +31,9 @@ The goal is to make long videos instantly searchable and conversational.
 - ⚡ FastAPI backend + Next.js frontend
 - 🌙 Modern responsive UI built with shadcn/ui
 
+- # 🎥 Demo
+
+📺 Watch the demo: https://drive.google.com/file/d/17EtJS-2tnIxKcaMeBCX12L8knDeNDwjH/view?usp=sharing
 ---
 
 # 🏗️ System Architecture
@@ -72,7 +75,21 @@ P --> Q[Gemini 2.5 Flash]
 
 Q --> R[Final Answer]
 ```
+---
 
+# 🎯 Project Goals
+
+VideoMind AI was built to explore how multiple AI technologies can be combined into a single end-to-end application.
+
+The project integrates:
+
+- Automatic Speech Recognition (Whisper)
+- Computer Vision (OCR & Image Captioning)
+- Semantic Search (FAISS)
+- Large Language Models (Gemini)
+- Retrieval-Augmented Generation (RAG)
+
+The result is an AI assistant capable of understanding and answering questions about video content through natural language.
 ---
 
 # 🔄 Processing Pipeline
