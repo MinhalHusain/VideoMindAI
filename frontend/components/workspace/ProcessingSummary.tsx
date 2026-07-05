@@ -38,13 +38,7 @@ export function ProcessingSummary() {
       
       <div className="grid gap-8 lg:grid-cols-2">
         <MetadataCard duration={duration} width={width} height={height} fps={fps} />
-        {/* Knowledge Stats is mock for now since it's not fully provided by UploadResponse unless we poll */}
-        <KnowledgeStats 
-          transcriptSegments={0} 
-          extractedFrames={0} 
-          timelineEntries={0} 
-          semanticChunks={0} 
-        />
+        <KnowledgeStats workspaceId={activeWorkspace.videoId} />
       </div>
 
       <div className="pt-4">

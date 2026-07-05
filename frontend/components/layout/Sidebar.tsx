@@ -3,10 +3,10 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
-  Upload,
   MessageSquareText,
   LayoutDashboard,
-  Settings,
+  FileText,
+  BrainCircuit,
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
@@ -18,9 +18,9 @@ import { Tooltip } from "@/components/ui/tooltip";
 
 const navItems = [
   { label: "Dashboard", href: "/", icon: LayoutDashboard },
-  { label: "Upload", href: "/upload", icon: Upload },
   { label: "Chat", href: "/chat", icon: MessageSquareText },
-  { label: "Settings", href: "/settings", icon: Settings },
+  { label: "Transcript", href: "/transcript", icon: FileText },
+  { label: "Knowledge", href: "/knowledge", icon: BrainCircuit },
 ];
 
 interface SidebarProps {

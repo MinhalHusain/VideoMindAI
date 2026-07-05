@@ -61,3 +61,51 @@ async def get_knowledge(workspace_id: str):
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=str(exc)
         )
+
+@router.get(
+    "/{workspace_id}/stats",
+    status_code=200,
+    summary="Get workspace statistics",
+)
+async def get_stats(workspace_id: str):
+    """Retrieve statistics for a workspace by reading its JSON files."""
+    try:
+        workspace_path = workspace_service.get_workspace_path(workspace_id)
+        
+        # Transcript segments
+        transcript_len = 0
+        transcript_path = workspace_path / "transcript.json"
+        if transcript_path.exists():
+            with transcript_path.open("r", encoding="utf-8") as f:
+                data = json.load(f)
+                transcript_len = len(data.get("segments", []))
+                
+        # Extracted frames
+        frames_saved = 0
+        frames_path = workspace_path / "frames.json"
+        if frames_path.exists():
+            with frames_path.open("r", encoding="utf-8") as f:
+                data = json.load(f)
+                frames_saved = data.get("frames_saved", 0)
+                
+        # Timeline and Chunks
+        timeline_len = 0
+        chunks_len = 0
+        knowledge_path = workspace_path / "knowledge.json"
+        if knowledge_path.exists():
+            with knowledge_path.open("r", encoding="utf-8") as f:
+                data = json.load(f)
+                timeline_len = len(data.get("timeline", []))
+                chunks_len = len(data.get("chunks", []))
+                
+        return {
+            "transcriptSegments": transcript_len,
+            "extractedFrames": frames_saved,
+            "timelineEntries": timeline_len,
+            "semanticChunks": chunks_len
+        }
+    except Exception as exc:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=str(exc)
+        )
