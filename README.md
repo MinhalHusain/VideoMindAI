@@ -337,45 +337,44 @@ VideoMindAI/
 
 ## Backend
 
+## Installation & Setup
+
+### 3. Running with Docker (Recommended)
+
+You can run the entire application using Docker Compose.
+
+1. Copy the example environment file:
 ```bash
-cd backend
-
-python -m venv .venv
-
-source .venv/bin/activate
+cp .env.example .env
 ```
+2. Open `.env` and add your `GEMINI_API_KEY`.
+3. Start the containers:
+```bash
+docker-compose up --build -d
+```
+The frontend will be available at [http://localhost:3000](http://localhost:3000) and the backend API at [http://localhost:8000](http://localhost:8000).
 
-Windows
+### 4. Running the Backend (Manual)
 
+#### Windows (PowerShell)
 ```powershell
-.venv\Scripts\Activate.ps1
-```
-
-Install dependencies
-
-```bash
+cd backend
+python -m venv venv
+.\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+uvicorn app.main:app --reload --port 8000
 ```
 
-Create
-
-```
-backend/.env
-```
-
-```env
-GEMINI_API_KEY=YOUR_API_KEY
-```
-
-Run
-
-```bash
-uvicorn app.main:app --reload
+#### macOS / Linux
+```powershell
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload --port 8000
 ```
 
----
-
-## Frontend
+### 5. Running the Frontend (Manual)
 
 ```bash
 cd frontend
@@ -414,7 +413,6 @@ http://localhost:3000
 - Clickable timestamps
 - Multi-user authentication
 - Cloud storage support (AWS S3 / GCS)
-- Docker deployment
 - Kubernetes support
 - Multi-language transcription
 - Streaming video analysis
